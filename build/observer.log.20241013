@@ -1,0 +1,82 @@
+[2024-10-13 02:23:40.102941 pid:34163 tid:7f778a4247c0 ctx:0 INFO: init@init.cpp:200] >> Output configuration 
+Begin dump configuration
+[]
+
+[LOG]
+LOG_CONSOLE_LEVEL=1
+LOG_FILE_LEVEL=5
+LOG_FILE_NAME=observer.log
+
+Finish dump configuration 
+
+[2024-10-13 02:23:40.104404 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.104941 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.105368 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.105805 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.106237 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.106715 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.107241 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.107718 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.108289 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.109271 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.109944 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.110785 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.111798 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.112347 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.113332 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.114178 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.114694 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.115116 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.115510 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.115942 pid:34163 tid:7f778a4247c0 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.115985 pid:34163 tid:7f778a4247c0 ctx:0 INFO: init@mem_pool.h:191] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2024-10-13 02:23:40.116001 pid:34163 tid:7f778a4247c0 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:771] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2024-10-13 02:23:40.116133 pid:34163 tid:7f778a4247c0 ctx:0 INFO: load_pages@double_write_buffer.cpp:290] >> double write buffer load pages done. page num=0
+[2024-10-13 02:23:40.116232 pid:34163 tid:7f778a4247c0 ctx:0 INFO: init_meta@db.cpp:308] >> Db meta file not exist. db=sys, file=miniob/db/sys/sys.db
+[2024-10-13 02:23:40.116658 pid:34163 tid:7f778a4247c0 ctx:0 INFO: open_all_tables@db.cpp:218] >> All table have been opened. num=0
+[2024-10-13 02:23:40.126462 pid:34163 tid:7f778a4247c0 ctx:0 TRACE: recover@db.cpp:272] >> db recover begin. check_point_lsn=0
+[2024-10-13 02:23:40.126604 pid:34163 tid:7f778a4247c0 ctx:0 INFO: recover@db.cpp:299] >> Successfully recover db. db=sys checkpoint_lsn=0
+[2024-10-13 02:23:40.126680 pid:34163 tid:7f778a4247c0 ctx:0 TRACE: set_current_db@session.cpp:56] >> change db to sys
+[2024-10-13 02:23:40.126696 pid:34163 tid:7f778a4247c0 ctx:0 INFO: init@default_handler.cpp:69] >> Default handler init with miniob success
+[2024-10-13 02:23:40.126726 pid:34163 tid:7f778a4247c0 ctx:0 INFO: init@init.cpp:215] >> Successfully init utility
+[2024-10-13 02:23:42.925509 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:121] >> ID
+[2024-10-13 02:23:42.925712 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:23:42.925737 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:23:42.925799 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:23:43.758640 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:121] >> ID
+[2024-10-13 02:23:43.758817 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:23:43.758836 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:23:43.758902 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:23:48.811750 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:96] >> SELECT
+[2024-10-13 02:23:48.811900 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:23:48.811919 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:23:48.812020 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:24:11.928817 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:88] >> CREATE
+[2024-10-13 02:24:11.929060 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:121] >> ID
+[2024-10-13 02:24:11.929164 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:24:11.929254 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:24:11.929387 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:24:15.026946 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:141] >> Unknown character []
+[2024-10-13 02:24:15.027101 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:24:15.027116 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:24:15.027155 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:24:21.831294 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:88] >> CREATE
+[2024-10-13 02:24:21.831401 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:121] >> ID
+[2024-10-13 02:24:21.831449 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:24:21.831459 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:24:21.831497 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:25:35.578926 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:88] >> CREATE
+[2024-10-13 02:25:35.579027 pid:34163 tid:7f778a4247c0 ctx:60300001f930 DEBUG: yylex@lex_sql.l:121] >> ID
+[2024-10-13 02:25:35.579080 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_sql@sql_task_handler.cpp:68] >> failed to do parse. rc=SQL_SYNTAX
+[2024-10-13 02:25:35.579089 pid:34163 tid:7f778a4247c0 ctx:60300001f930 TRACE: handle_event@sql_task_handler.cpp:39] >> failed to handle sql. rc=SQL_SYNTAX
+[2024-10-13 02:25:35.579142 pid:34163 tid:7f778a4247c0 ctx:60300001f930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2024-10-13 02:38:16.287477 pid:34163 tid:7f7785b73640 ctx:0 INFO: quit_thread_func@main.cpp:153] >> Receive signal: 1
+[2024-10-13 02:38:16.287476 pid:34163 tid:7f778a4247c0 ctx:0 WARN: my_readline@cli_communicator.cpp:96] >> failed to read line: Interrupted system call
+[2024-10-13 02:38:16.287946 pid:34163 tid:7f7785b73640 ctx:0 INFO: shutdown@server.cpp:344] >> CliServer shutting down
+[2024-10-13 02:38:16.288191 pid:34163 tid:7f778a4247c0 ctx:0 INFO: main@main.cpp:200] >> Server stopped
+[2024-10-13 02:38:16.297912 pid:34163 tid:7f778a4247c0 ctx:0 INFO: sync@db.cpp:247] >> double write buffer flush pages ret=SUCCESS
+[2024-10-13 02:38:16.298514 pid:34163 tid:7f778a4247c0 ctx:0 INFO: flush_meta@db.cpp:380] >> Successfully write db meta file. db=sys, file=miniob/db/sys/sys.db.tmp, check_point_lsn=0
+[2024-10-13 02:38:16.298561 pid:34163 tid:7f778a4247c0 ctx:0 INFO: sync@db.cpp:266] >> Successfully sync db. db=sys
+[2024-10-13 02:38:16.298591 pid:34163 tid:7f778a4247c0 ctx:0 INFO: ~Db@db.cpp:47] >> Db has been closed: sys
+[2024-10-13 02:38:16.305156 pid:34163 tid:7f778a4247c0 ctx:0 INFO: cleanup@mem_pool.h:217] >> Successfully do cleanup, this->name:BufPool.
+[2024-10-13 02:38:16.305297 pid:34163 tid:7f778a4247c0 ctx:0 INFO: cleanup_util@init.cpp:229] >> Shutdown Cleanly!
