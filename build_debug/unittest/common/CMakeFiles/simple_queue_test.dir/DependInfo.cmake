@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/oceanbase/oceanbase/build_debug/deps/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/root/oceanbase/oceanbase/build/deps/common/CMakeFiles/common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

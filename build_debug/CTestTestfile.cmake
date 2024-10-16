@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /root/oceanbase/oceanbase
-# Build directory: /root/oceanbase/oceanbase/build_debug
+# Build directory: /root/oceanbase/oceanbase/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/oceanbase/oceanbase/build_debug/deps/cmake_install.cmake")
-  include("/root/oceanbase/oceanbase/build_debug/src/obclient/cmake_install.cmake")
-  include("/root/oceanbase/oceanbase/build_debug/src/observer/cmake_install.cmake")
-  include("/root/oceanbase/oceanbase/build_debug/test/perf/cmake_install.cmake")
-  include("/root/oceanbase/oceanbase/build_debug/tools/cmake_install.cmake")
-  include("/root/oceanbase/oceanbase/build_debug/unittest/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build/deps/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build/src/obclient/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build/src/observer/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build/test/perf/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build/tools/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build/unittest/cmake_install.cmake")
 
 endif()
 
@@ -61,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/oceanbase/oceanbase/build_debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/oceanbase/oceanbase/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

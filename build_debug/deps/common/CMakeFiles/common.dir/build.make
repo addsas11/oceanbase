@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build
 
 # Include any dependencies generated for this target.
 include deps/common/CMakeFiles/common.dir/depend.make
@@ -72,478 +72,478 @@ include deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/conf/ini.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/conf/ini.cpp.o: ../deps/common/conf/ini.cpp
 deps/common/CMakeFiles/common.dir/conf/ini.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object deps/common/CMakeFiles/common.dir/conf/ini.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/conf/ini.cpp.o -MF CMakeFiles/common.dir/conf/ini.cpp.o.d -o CMakeFiles/common.dir/conf/ini.cpp.o -c /root/oceanbase/oceanbase/deps/common/conf/ini.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object deps/common/CMakeFiles/common.dir/conf/ini.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/conf/ini.cpp.o -MF CMakeFiles/common.dir/conf/ini.cpp.o.d -o CMakeFiles/common.dir/conf/ini.cpp.o -c /root/oceanbase/oceanbase/deps/common/conf/ini.cpp
 
 deps/common/CMakeFiles/common.dir/conf/ini.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/conf/ini.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/conf/ini.cpp > CMakeFiles/common.dir/conf/ini.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/conf/ini.cpp > CMakeFiles/common.dir/conf/ini.cpp.i
 
 deps/common/CMakeFiles/common.dir/conf/ini.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/conf/ini.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/conf/ini.cpp -o CMakeFiles/common.dir/conf/ini.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/conf/ini.cpp -o CMakeFiles/common.dir/conf/ini.cpp.s
 
 deps/common/CMakeFiles/common.dir/io/io.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/io/io.cpp.o: ../deps/common/io/io.cpp
 deps/common/CMakeFiles/common.dir/io/io.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object deps/common/CMakeFiles/common.dir/io/io.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/io/io.cpp.o -MF CMakeFiles/common.dir/io/io.cpp.o.d -o CMakeFiles/common.dir/io/io.cpp.o -c /root/oceanbase/oceanbase/deps/common/io/io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object deps/common/CMakeFiles/common.dir/io/io.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/io/io.cpp.o -MF CMakeFiles/common.dir/io/io.cpp.o.d -o CMakeFiles/common.dir/io/io.cpp.o -c /root/oceanbase/oceanbase/deps/common/io/io.cpp
 
 deps/common/CMakeFiles/common.dir/io/io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/io/io.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/io/io.cpp > CMakeFiles/common.dir/io/io.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/io/io.cpp > CMakeFiles/common.dir/io/io.cpp.i
 
 deps/common/CMakeFiles/common.dir/io/io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/io/io.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/io/io.cpp -o CMakeFiles/common.dir/io/io.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/io/io.cpp -o CMakeFiles/common.dir/io/io.cpp.s
 
 deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o: ../deps/common/lang/bitmap.cpp
 deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o -MF CMakeFiles/common.dir/lang/bitmap.cpp.o.d -o CMakeFiles/common.dir/lang/bitmap.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/bitmap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o -MF CMakeFiles/common.dir/lang/bitmap.cpp.o.d -o CMakeFiles/common.dir/lang/bitmap.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/bitmap.cpp
 
 deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/lang/bitmap.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/bitmap.cpp > CMakeFiles/common.dir/lang/bitmap.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/bitmap.cpp > CMakeFiles/common.dir/lang/bitmap.cpp.i
 
 deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/lang/bitmap.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/bitmap.cpp -o CMakeFiles/common.dir/lang/bitmap.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/bitmap.cpp -o CMakeFiles/common.dir/lang/bitmap.cpp.s
 
 deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o: ../deps/common/lang/comparator.cpp
 deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o -MF CMakeFiles/common.dir/lang/comparator.cpp.o.d -o CMakeFiles/common.dir/lang/comparator.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o -MF CMakeFiles/common.dir/lang/comparator.cpp.o.d -o CMakeFiles/common.dir/lang/comparator.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp
 
 deps/common/CMakeFiles/common.dir/lang/comparator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/lang/comparator.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp > CMakeFiles/common.dir/lang/comparator.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp > CMakeFiles/common.dir/lang/comparator.cpp.i
 
 deps/common/CMakeFiles/common.dir/lang/comparator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/lang/comparator.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp -o CMakeFiles/common.dir/lang/comparator.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp -o CMakeFiles/common.dir/lang/comparator.cpp.s
 
 deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o: ../deps/common/lang/mutex.cpp
 deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o -MF CMakeFiles/common.dir/lang/mutex.cpp.o.d -o CMakeFiles/common.dir/lang/mutex.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o -MF CMakeFiles/common.dir/lang/mutex.cpp.o.d -o CMakeFiles/common.dir/lang/mutex.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/mutex.cpp
 
 deps/common/CMakeFiles/common.dir/lang/mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/lang/mutex.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/mutex.cpp > CMakeFiles/common.dir/lang/mutex.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/mutex.cpp > CMakeFiles/common.dir/lang/mutex.cpp.i
 
 deps/common/CMakeFiles/common.dir/lang/mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/lang/mutex.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/mutex.cpp -o CMakeFiles/common.dir/lang/mutex.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/mutex.cpp -o CMakeFiles/common.dir/lang/mutex.cpp.s
 
 deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: ../deps/common/lang/serializer.cpp
 deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o -MF CMakeFiles/common.dir/lang/serializer.cpp.o.d -o CMakeFiles/common.dir/lang/serializer.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o -MF CMakeFiles/common.dir/lang/serializer.cpp.o.d -o CMakeFiles/common.dir/lang/serializer.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp
 
 deps/common/CMakeFiles/common.dir/lang/serializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/lang/serializer.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp > CMakeFiles/common.dir/lang/serializer.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp > CMakeFiles/common.dir/lang/serializer.cpp.i
 
 deps/common/CMakeFiles/common.dir/lang/serializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/lang/serializer.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp -o CMakeFiles/common.dir/lang/serializer.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp -o CMakeFiles/common.dir/lang/serializer.cpp.s
 
 deps/common/CMakeFiles/common.dir/lang/string.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/lang/string.cpp.o: ../deps/common/lang/string.cpp
 deps/common/CMakeFiles/common.dir/lang/string.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object deps/common/CMakeFiles/common.dir/lang/string.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/string.cpp.o -MF CMakeFiles/common.dir/lang/string.cpp.o.d -o CMakeFiles/common.dir/lang/string.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object deps/common/CMakeFiles/common.dir/lang/string.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/lang/string.cpp.o -MF CMakeFiles/common.dir/lang/string.cpp.o.d -o CMakeFiles/common.dir/lang/string.cpp.o -c /root/oceanbase/oceanbase/deps/common/lang/string.cpp
 
 deps/common/CMakeFiles/common.dir/lang/string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/lang/string.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/string.cpp > CMakeFiles/common.dir/lang/string.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/lang/string.cpp > CMakeFiles/common.dir/lang/string.cpp.i
 
 deps/common/CMakeFiles/common.dir/lang/string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/lang/string.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/string.cpp -o CMakeFiles/common.dir/lang/string.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/lang/string.cpp -o CMakeFiles/common.dir/lang/string.cpp.s
 
 deps/common/CMakeFiles/common.dir/log/log.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/log/log.cpp.o: ../deps/common/log/log.cpp
 deps/common/CMakeFiles/common.dir/log/log.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object deps/common/CMakeFiles/common.dir/log/log.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/log/log.cpp.o -MF CMakeFiles/common.dir/log/log.cpp.o.d -o CMakeFiles/common.dir/log/log.cpp.o -c /root/oceanbase/oceanbase/deps/common/log/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object deps/common/CMakeFiles/common.dir/log/log.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/log/log.cpp.o -MF CMakeFiles/common.dir/log/log.cpp.o.d -o CMakeFiles/common.dir/log/log.cpp.o -c /root/oceanbase/oceanbase/deps/common/log/log.cpp
 
 deps/common/CMakeFiles/common.dir/log/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/log/log.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/log/log.cpp > CMakeFiles/common.dir/log/log.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/log/log.cpp > CMakeFiles/common.dir/log/log.cpp.i
 
 deps/common/CMakeFiles/common.dir/log/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/log/log.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/log/log.cpp -o CMakeFiles/common.dir/log/log.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/log/log.cpp -o CMakeFiles/common.dir/log/log.cpp.s
 
 deps/common/CMakeFiles/common.dir/math/crc.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/math/crc.cpp.o: ../deps/common/math/crc.cpp
 deps/common/CMakeFiles/common.dir/math/crc.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object deps/common/CMakeFiles/common.dir/math/crc.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/crc.cpp.o -MF CMakeFiles/common.dir/math/crc.cpp.o.d -o CMakeFiles/common.dir/math/crc.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object deps/common/CMakeFiles/common.dir/math/crc.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/crc.cpp.o -MF CMakeFiles/common.dir/math/crc.cpp.o.d -o CMakeFiles/common.dir/math/crc.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/crc.cpp
 
 deps/common/CMakeFiles/common.dir/math/crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/math/crc.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/crc.cpp > CMakeFiles/common.dir/math/crc.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/crc.cpp > CMakeFiles/common.dir/math/crc.cpp.i
 
 deps/common/CMakeFiles/common.dir/math/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/math/crc.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/crc.cpp -o CMakeFiles/common.dir/math/crc.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/crc.cpp -o CMakeFiles/common.dir/math/crc.cpp.s
 
 deps/common/CMakeFiles/common.dir/math/md5.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/math/md5.cpp.o: ../deps/common/math/md5.cpp
 deps/common/CMakeFiles/common.dir/math/md5.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object deps/common/CMakeFiles/common.dir/math/md5.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/md5.cpp.o -MF CMakeFiles/common.dir/math/md5.cpp.o.d -o CMakeFiles/common.dir/math/md5.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/md5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object deps/common/CMakeFiles/common.dir/math/md5.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/md5.cpp.o -MF CMakeFiles/common.dir/math/md5.cpp.o.d -o CMakeFiles/common.dir/math/md5.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/md5.cpp
 
 deps/common/CMakeFiles/common.dir/math/md5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/math/md5.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/md5.cpp > CMakeFiles/common.dir/math/md5.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/md5.cpp > CMakeFiles/common.dir/math/md5.cpp.i
 
 deps/common/CMakeFiles/common.dir/math/md5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/math/md5.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/md5.cpp -o CMakeFiles/common.dir/math/md5.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/md5.cpp -o CMakeFiles/common.dir/math/md5.cpp.s
 
 deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o: ../deps/common/math/random_generator.cpp
 deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o -MF CMakeFiles/common.dir/math/random_generator.cpp.o.d -o CMakeFiles/common.dir/math/random_generator.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o -MF CMakeFiles/common.dir/math/random_generator.cpp.o.d -o CMakeFiles/common.dir/math/random_generator.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp
 
 deps/common/CMakeFiles/common.dir/math/random_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/math/random_generator.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp > CMakeFiles/common.dir/math/random_generator.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp > CMakeFiles/common.dir/math/random_generator.cpp.i
 
 deps/common/CMakeFiles/common.dir/math/random_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/math/random_generator.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp -o CMakeFiles/common.dir/math/random_generator.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp -o CMakeFiles/common.dir/math/random_generator.cpp.s
 
 deps/common/CMakeFiles/common.dir/math/regex.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/math/regex.cpp.o: ../deps/common/math/regex.cpp
 deps/common/CMakeFiles/common.dir/math/regex.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object deps/common/CMakeFiles/common.dir/math/regex.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/regex.cpp.o -MF CMakeFiles/common.dir/math/regex.cpp.o.d -o CMakeFiles/common.dir/math/regex.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/regex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object deps/common/CMakeFiles/common.dir/math/regex.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/regex.cpp.o -MF CMakeFiles/common.dir/math/regex.cpp.o.d -o CMakeFiles/common.dir/math/regex.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/regex.cpp
 
 deps/common/CMakeFiles/common.dir/math/regex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/math/regex.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/regex.cpp > CMakeFiles/common.dir/math/regex.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/regex.cpp > CMakeFiles/common.dir/math/regex.cpp.i
 
 deps/common/CMakeFiles/common.dir/math/regex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/math/regex.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/regex.cpp -o CMakeFiles/common.dir/math/regex.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/regex.cpp -o CMakeFiles/common.dir/math/regex.cpp.s
 
 deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o: ../deps/common/math/simd_util.cpp
 deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o -MF CMakeFiles/common.dir/math/simd_util.cpp.o.d -o CMakeFiles/common.dir/math/simd_util.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o -MF CMakeFiles/common.dir/math/simd_util.cpp.o.d -o CMakeFiles/common.dir/math/simd_util.cpp.o -c /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp
 
 deps/common/CMakeFiles/common.dir/math/simd_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/math/simd_util.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp > CMakeFiles/common.dir/math/simd_util.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp > CMakeFiles/common.dir/math/simd_util.cpp.i
 
 deps/common/CMakeFiles/common.dir/math/simd_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/math/simd_util.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp -o CMakeFiles/common.dir/math/simd_util.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp -o CMakeFiles/common.dir/math/simd_util.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o: ../deps/common/metrics/console_reporter.cpp
 deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o -MF CMakeFiles/common.dir/metrics/console_reporter.cpp.o.d -o CMakeFiles/common.dir/metrics/console_reporter.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o -MF CMakeFiles/common.dir/metrics/console_reporter.cpp.o.d -o CMakeFiles/common.dir/metrics/console_reporter.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/console_reporter.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.cpp > CMakeFiles/common.dir/metrics/console_reporter.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.cpp > CMakeFiles/common.dir/metrics/console_reporter.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/console_reporter.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.cpp -o CMakeFiles/common.dir/metrics/console_reporter.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.cpp -o CMakeFiles/common.dir/metrics/console_reporter.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: ../deps/common/metrics/histogram_snapshot.cpp
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o -MF CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o.d -o CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o -MF CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o.d -o CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp > CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp > CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp -o CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp -o CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o: ../deps/common/metrics/log_reporter.cpp
 deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o -MF CMakeFiles/common.dir/metrics/log_reporter.cpp.o.d -o CMakeFiles/common.dir/metrics/log_reporter.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/log_reporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o -MF CMakeFiles/common.dir/metrics/log_reporter.cpp.o.d -o CMakeFiles/common.dir/metrics/log_reporter.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/log_reporter.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/log_reporter.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/log_reporter.cpp > CMakeFiles/common.dir/metrics/log_reporter.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/log_reporter.cpp > CMakeFiles/common.dir/metrics/log_reporter.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/log_reporter.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/log_reporter.cpp -o CMakeFiles/common.dir/metrics/log_reporter.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/log_reporter.cpp -o CMakeFiles/common.dir/metrics/log_reporter.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o: ../deps/common/metrics/metrics.cpp
 deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o -MF CMakeFiles/common.dir/metrics/metrics.cpp.o.d -o CMakeFiles/common.dir/metrics/metrics.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/metrics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o -MF CMakeFiles/common.dir/metrics/metrics.cpp.o.d -o CMakeFiles/common.dir/metrics/metrics.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/metrics.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/metrics.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/metrics.cpp > CMakeFiles/common.dir/metrics/metrics.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/metrics.cpp > CMakeFiles/common.dir/metrics/metrics.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/metrics.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/metrics.cpp -o CMakeFiles/common.dir/metrics/metrics.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/metrics.cpp -o CMakeFiles/common.dir/metrics/metrics.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o: ../deps/common/metrics/metrics_registry.cpp
 deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o -MF CMakeFiles/common.dir/metrics/metrics_registry.cpp.o.d -o CMakeFiles/common.dir/metrics/metrics_registry.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o -MF CMakeFiles/common.dir/metrics/metrics_registry.cpp.o.d -o CMakeFiles/common.dir/metrics/metrics_registry.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/metrics_registry.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.cpp > CMakeFiles/common.dir/metrics/metrics_registry.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.cpp > CMakeFiles/common.dir/metrics/metrics_registry.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/metrics_registry.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.cpp -o CMakeFiles/common.dir/metrics/metrics_registry.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.cpp -o CMakeFiles/common.dir/metrics/metrics_registry.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o: ../deps/common/metrics/reporter.cpp
 deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o -MF CMakeFiles/common.dir/metrics/reporter.cpp.o.d -o CMakeFiles/common.dir/metrics/reporter.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/reporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o -MF CMakeFiles/common.dir/metrics/reporter.cpp.o.d -o CMakeFiles/common.dir/metrics/reporter.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/reporter.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/reporter.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/reporter.cpp > CMakeFiles/common.dir/metrics/reporter.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/reporter.cpp > CMakeFiles/common.dir/metrics/reporter.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/reporter.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/reporter.cpp -o CMakeFiles/common.dir/metrics/reporter.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/reporter.cpp -o CMakeFiles/common.dir/metrics/reporter.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o: ../deps/common/metrics/reservoir.cpp
 deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o -MF CMakeFiles/common.dir/metrics/reservoir.cpp.o.d -o CMakeFiles/common.dir/metrics/reservoir.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/reservoir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o -MF CMakeFiles/common.dir/metrics/reservoir.cpp.o.d -o CMakeFiles/common.dir/metrics/reservoir.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/reservoir.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/reservoir.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/reservoir.cpp > CMakeFiles/common.dir/metrics/reservoir.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/reservoir.cpp > CMakeFiles/common.dir/metrics/reservoir.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/reservoir.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/reservoir.cpp -o CMakeFiles/common.dir/metrics/reservoir.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/reservoir.cpp -o CMakeFiles/common.dir/metrics/reservoir.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o: ../deps/common/metrics/sampler.cpp
 deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o -MF CMakeFiles/common.dir/metrics/sampler.cpp.o.d -o CMakeFiles/common.dir/metrics/sampler.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o -MF CMakeFiles/common.dir/metrics/sampler.cpp.o.d -o CMakeFiles/common.dir/metrics/sampler.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/sampler.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/sampler.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/sampler.cpp > CMakeFiles/common.dir/metrics/sampler.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/sampler.cpp > CMakeFiles/common.dir/metrics/sampler.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/sampler.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/sampler.cpp -o CMakeFiles/common.dir/metrics/sampler.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/sampler.cpp -o CMakeFiles/common.dir/metrics/sampler.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o: ../deps/common/metrics/timer_snapshot.cpp
 deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o -MF CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o.d -o CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o -MF CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o.d -o CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/timer_snapshot.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.cpp > CMakeFiles/common.dir/metrics/timer_snapshot.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.cpp > CMakeFiles/common.dir/metrics/timer_snapshot.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/timer_snapshot.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.cpp -o CMakeFiles/common.dir/metrics/timer_snapshot.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.cpp -o CMakeFiles/common.dir/metrics/timer_snapshot.cpp.s
 
 deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o: ../deps/common/metrics/uniform_reservoir.cpp
 deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o -MF CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o.d -o CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o -MF CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o.d -o CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o -c /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.cpp
 
 deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.cpp > CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.cpp > CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.i
 
 deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.cpp -o CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.cpp -o CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.s
 
 deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o: ../deps/common/mm/mem_pool.cpp
 deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o -MF CMakeFiles/common.dir/mm/mem_pool.cpp.o.d -o CMakeFiles/common.dir/mm/mem_pool.cpp.o -c /root/oceanbase/oceanbase/deps/common/mm/mem_pool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o -MF CMakeFiles/common.dir/mm/mem_pool.cpp.o.d -o CMakeFiles/common.dir/mm/mem_pool.cpp.o -c /root/oceanbase/oceanbase/deps/common/mm/mem_pool.cpp
 
 deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/mm/mem_pool.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/mm/mem_pool.cpp > CMakeFiles/common.dir/mm/mem_pool.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/mm/mem_pool.cpp > CMakeFiles/common.dir/mm/mem_pool.cpp.i
 
 deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/mm/mem_pool.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/mm/mem_pool.cpp -o CMakeFiles/common.dir/mm/mem_pool.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/mm/mem_pool.cpp -o CMakeFiles/common.dir/mm/mem_pool.cpp.s
 
 deps/common/CMakeFiles/common.dir/os/os.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/os/os.cpp.o: ../deps/common/os/os.cpp
 deps/common/CMakeFiles/common.dir/os/os.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object deps/common/CMakeFiles/common.dir/os/os.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/os.cpp.o -MF CMakeFiles/common.dir/os/os.cpp.o.d -o CMakeFiles/common.dir/os/os.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/os.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object deps/common/CMakeFiles/common.dir/os/os.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/os.cpp.o -MF CMakeFiles/common.dir/os/os.cpp.o.d -o CMakeFiles/common.dir/os/os.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/os.cpp
 
 deps/common/CMakeFiles/common.dir/os/os.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/os/os.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/os.cpp > CMakeFiles/common.dir/os/os.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/os.cpp > CMakeFiles/common.dir/os/os.cpp.i
 
 deps/common/CMakeFiles/common.dir/os/os.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/os/os.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/os.cpp -o CMakeFiles/common.dir/os/os.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/os.cpp -o CMakeFiles/common.dir/os/os.cpp.s
 
 deps/common/CMakeFiles/common.dir/os/path.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/os/path.cpp.o: ../deps/common/os/path.cpp
 deps/common/CMakeFiles/common.dir/os/path.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object deps/common/CMakeFiles/common.dir/os/path.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/path.cpp.o -MF CMakeFiles/common.dir/os/path.cpp.o.d -o CMakeFiles/common.dir/os/path.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object deps/common/CMakeFiles/common.dir/os/path.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/path.cpp.o -MF CMakeFiles/common.dir/os/path.cpp.o.d -o CMakeFiles/common.dir/os/path.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/path.cpp
 
 deps/common/CMakeFiles/common.dir/os/path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/os/path.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/path.cpp > CMakeFiles/common.dir/os/path.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/path.cpp > CMakeFiles/common.dir/os/path.cpp.i
 
 deps/common/CMakeFiles/common.dir/os/path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/os/path.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/path.cpp -o CMakeFiles/common.dir/os/path.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/path.cpp -o CMakeFiles/common.dir/os/path.cpp.s
 
 deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o: ../deps/common/os/pidfile.cpp
 deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o -MF CMakeFiles/common.dir/os/pidfile.cpp.o.d -o CMakeFiles/common.dir/os/pidfile.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/pidfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o -MF CMakeFiles/common.dir/os/pidfile.cpp.o.d -o CMakeFiles/common.dir/os/pidfile.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/pidfile.cpp
 
 deps/common/CMakeFiles/common.dir/os/pidfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/os/pidfile.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/pidfile.cpp > CMakeFiles/common.dir/os/pidfile.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/pidfile.cpp > CMakeFiles/common.dir/os/pidfile.cpp.i
 
 deps/common/CMakeFiles/common.dir/os/pidfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/os/pidfile.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/pidfile.cpp -o CMakeFiles/common.dir/os/pidfile.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/pidfile.cpp -o CMakeFiles/common.dir/os/pidfile.cpp.s
 
 deps/common/CMakeFiles/common.dir/os/process.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/os/process.cpp.o: ../deps/common/os/process.cpp
 deps/common/CMakeFiles/common.dir/os/process.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object deps/common/CMakeFiles/common.dir/os/process.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/process.cpp.o -MF CMakeFiles/common.dir/os/process.cpp.o.d -o CMakeFiles/common.dir/os/process.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object deps/common/CMakeFiles/common.dir/os/process.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/process.cpp.o -MF CMakeFiles/common.dir/os/process.cpp.o.d -o CMakeFiles/common.dir/os/process.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/process.cpp
 
 deps/common/CMakeFiles/common.dir/os/process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/os/process.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/process.cpp > CMakeFiles/common.dir/os/process.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/process.cpp > CMakeFiles/common.dir/os/process.cpp.i
 
 deps/common/CMakeFiles/common.dir/os/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/os/process.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/process.cpp -o CMakeFiles/common.dir/os/process.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/process.cpp -o CMakeFiles/common.dir/os/process.cpp.s
 
 deps/common/CMakeFiles/common.dir/os/process_param.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/os/process_param.cpp.o: ../deps/common/os/process_param.cpp
 deps/common/CMakeFiles/common.dir/os/process_param.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object deps/common/CMakeFiles/common.dir/os/process_param.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/process_param.cpp.o -MF CMakeFiles/common.dir/os/process_param.cpp.o.d -o CMakeFiles/common.dir/os/process_param.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/process_param.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object deps/common/CMakeFiles/common.dir/os/process_param.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/process_param.cpp.o -MF CMakeFiles/common.dir/os/process_param.cpp.o.d -o CMakeFiles/common.dir/os/process_param.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/process_param.cpp
 
 deps/common/CMakeFiles/common.dir/os/process_param.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/os/process_param.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/process_param.cpp > CMakeFiles/common.dir/os/process_param.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/process_param.cpp > CMakeFiles/common.dir/os/process_param.cpp.i
 
 deps/common/CMakeFiles/common.dir/os/process_param.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/os/process_param.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/process_param.cpp -o CMakeFiles/common.dir/os/process_param.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/process_param.cpp -o CMakeFiles/common.dir/os/process_param.cpp.s
 
 deps/common/CMakeFiles/common.dir/os/signal.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/os/signal.cpp.o: ../deps/common/os/signal.cpp
 deps/common/CMakeFiles/common.dir/os/signal.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object deps/common/CMakeFiles/common.dir/os/signal.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/signal.cpp.o -MF CMakeFiles/common.dir/os/signal.cpp.o.d -o CMakeFiles/common.dir/os/signal.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/signal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object deps/common/CMakeFiles/common.dir/os/signal.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/os/signal.cpp.o -MF CMakeFiles/common.dir/os/signal.cpp.o.d -o CMakeFiles/common.dir/os/signal.cpp.o -c /root/oceanbase/oceanbase/deps/common/os/signal.cpp
 
 deps/common/CMakeFiles/common.dir/os/signal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/os/signal.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/signal.cpp > CMakeFiles/common.dir/os/signal.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/os/signal.cpp > CMakeFiles/common.dir/os/signal.cpp.i
 
 deps/common/CMakeFiles/common.dir/os/signal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/os/signal.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/signal.cpp -o CMakeFiles/common.dir/os/signal.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/os/signal.cpp -o CMakeFiles/common.dir/os/signal.cpp.s
 
 deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: ../deps/common/thread/thread_pool_executor.cpp
 deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o -MF CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o.d -o CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o -c /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o -MF CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o.d -o CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o -c /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp
 
 deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/thread/thread_pool_executor.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp > CMakeFiles/common.dir/thread/thread_pool_executor.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp > CMakeFiles/common.dir/thread/thread_pool_executor.cpp.i
 
 deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/thread/thread_pool_executor.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp -o CMakeFiles/common.dir/thread/thread_pool_executor.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp -o CMakeFiles/common.dir/thread/thread_pool_executor.cpp.s
 
 deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o: ../deps/common/thread/thread_util.cpp
 deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o -MF CMakeFiles/common.dir/thread/thread_util.cpp.o.d -o CMakeFiles/common.dir/thread/thread_util.cpp.o -c /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o -MF CMakeFiles/common.dir/thread/thread_util.cpp.o.d -o CMakeFiles/common.dir/thread/thread_util.cpp.o -c /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp
 
 deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/thread/thread_util.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp > CMakeFiles/common.dir/thread/thread_util.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp > CMakeFiles/common.dir/thread/thread_util.cpp.i
 
 deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/thread/thread_util.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp -o CMakeFiles/common.dir/thread/thread_util.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp -o CMakeFiles/common.dir/thread/thread_util.cpp.s
 
 deps/common/CMakeFiles/common.dir/time/datetime.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/time/datetime.cpp.o: ../deps/common/time/datetime.cpp
 deps/common/CMakeFiles/common.dir/time/datetime.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object deps/common/CMakeFiles/common.dir/time/datetime.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/time/datetime.cpp.o -MF CMakeFiles/common.dir/time/datetime.cpp.o.d -o CMakeFiles/common.dir/time/datetime.cpp.o -c /root/oceanbase/oceanbase/deps/common/time/datetime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object deps/common/CMakeFiles/common.dir/time/datetime.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/time/datetime.cpp.o -MF CMakeFiles/common.dir/time/datetime.cpp.o.d -o CMakeFiles/common.dir/time/datetime.cpp.o -c /root/oceanbase/oceanbase/deps/common/time/datetime.cpp
 
 deps/common/CMakeFiles/common.dir/time/datetime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/time/datetime.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/time/datetime.cpp > CMakeFiles/common.dir/time/datetime.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/time/datetime.cpp > CMakeFiles/common.dir/time/datetime.cpp.i
 
 deps/common/CMakeFiles/common.dir/time/datetime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/time/datetime.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/time/datetime.cpp -o CMakeFiles/common.dir/time/datetime.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/time/datetime.cpp -o CMakeFiles/common.dir/time/datetime.cpp.s
 
 deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o: deps/common/CMakeFiles/common.dir/flags.make
 deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o: ../deps/common/time/timeout_info.cpp
 deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o: deps/common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o -MF CMakeFiles/common.dir/time/timeout_info.cpp.o.d -o CMakeFiles/common.dir/time/timeout_info.cpp.o -c /root/oceanbase/oceanbase/deps/common/time/timeout_info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o"
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o -MF CMakeFiles/common.dir/time/timeout_info.cpp.o.d -o CMakeFiles/common.dir/time/timeout_info.cpp.o -c /root/oceanbase/oceanbase/deps/common/time/timeout_info.cpp
 
 deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/time/timeout_info.cpp.i"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/time/timeout_info.cpp > CMakeFiles/common.dir/time/timeout_info.cpp.i
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/deps/common/time/timeout_info.cpp > CMakeFiles/common.dir/time/timeout_info.cpp.i
 
 deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/time/timeout_info.cpp.s"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/time/timeout_info.cpp -o CMakeFiles/common.dir/time/timeout_info.cpp.s
+	cd /root/oceanbase/oceanbase/build/deps/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/deps/common/time/timeout_info.cpp -o CMakeFiles/common.dir/time/timeout_info.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -621,19 +621,19 @@ lib/libcommon.a: deps/common/CMakeFiles/common.dir/time/datetime.cpp.o
 lib/libcommon.a: deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o
 lib/libcommon.a: deps/common/CMakeFiles/common.dir/build.make
 lib/libcommon.a: deps/common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX static library ../../lib/libcommon.a"
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX static library ../../lib/libcommon.a"
+	cd /root/oceanbase/oceanbase/build/deps/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd /root/oceanbase/oceanbase/build/deps/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 deps/common/CMakeFiles/common.dir/build: lib/libcommon.a
 .PHONY : deps/common/CMakeFiles/common.dir/build
 
 deps/common/CMakeFiles/common.dir/clean:
-	cd /root/oceanbase/oceanbase/build_debug/deps/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /root/oceanbase/oceanbase/build/deps/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : deps/common/CMakeFiles/common.dir/clean
 
 deps/common/CMakeFiles/common.dir/depend:
-	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/oceanbase/oceanbase /root/oceanbase/oceanbase/deps/common /root/oceanbase/oceanbase/build_debug /root/oceanbase/oceanbase/build_debug/deps/common /root/oceanbase/oceanbase/build_debug/deps/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/oceanbase/oceanbase /root/oceanbase/oceanbase/deps/common /root/oceanbase/oceanbase/build /root/oceanbase/oceanbase/build/deps/common /root/oceanbase/oceanbase/build/deps/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : deps/common/CMakeFiles/common.dir/depend
 

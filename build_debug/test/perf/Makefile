@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles /root/oceanbase/oceanbase/build_debug/test/perf//CMakeFiles/progress.marks
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles 0
+	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build/CMakeFiles /root/oceanbase/oceanbase/build/test/perf//CMakeFiles/progress.marks
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/clean
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/preinstall
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/preinstall
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/perf/CMakeFiles/client_performance_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/CMakeFiles/client_performance_test.dir/rule
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/perf/CMakeFiles/client_performance_test.dir/rule
 .PHONY : test/perf/CMakeFiles/client_performance_test.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ client_performance_test: test/perf/CMakeFiles/client_performance_test.dir/rule
 
 # fast build rule for target.
 client_performance_test/fast:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/build
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/build
 .PHONY : client_performance_test/fast
 
 client_performance_test.o: client_performance_test.cpp.o
@@ -190,7 +190,7 @@ client_performance_test.o: client_performance_test.cpp.o
 
 # target to build an object file
 client_performance_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o
 .PHONY : client_performance_test.cpp.o
 
 client_performance_test.i: client_performance_test.cpp.i
@@ -198,7 +198,7 @@ client_performance_test.i: client_performance_test.cpp.i
 
 # target to preprocess a source file
 client_performance_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.i
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.i
 .PHONY : client_performance_test.cpp.i
 
 client_performance_test.s: client_performance_test.cpp.s
@@ -206,7 +206,7 @@ client_performance_test.s: client_performance_test.cpp.s
 
 # target to generate assembly for a file
 client_performance_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.s
+	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f test/perf/CMakeFiles/client_performance_test.dir/build.make test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.s
 .PHONY : client_performance_test.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
