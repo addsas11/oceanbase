@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build/CMakeFiles /root/oceanbase/oceanbase/build/src/obclient//CMakeFiles/progress.marks
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build/CMakeFiles 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles /root/oceanbase/oceanbase/build_debug/src/obclient//CMakeFiles/progress.marks
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/clean
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/obclient/CMakeFiles/obclient.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/CMakeFiles/obclient.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/obclient/CMakeFiles/obclient.dir/rule
 .PHONY : src/obclient/CMakeFiles/obclient.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ obclient: src/obclient/CMakeFiles/obclient.dir/rule
 
 # fast build rule for target.
 obclient/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/build
 .PHONY : obclient/fast
 
 client.o: client.cpp.o
@@ -190,7 +190,7 @@ client.o: client.cpp.o
 
 # target to build an object file
 client.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/client.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/client.cpp.o
 .PHONY : client.cpp.o
 
 client.i: client.cpp.i
@@ -198,7 +198,7 @@ client.i: client.cpp.i
 
 # target to preprocess a source file
 client.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/client.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/client.cpp.i
 .PHONY : client.cpp.i
 
 client.s: client.cpp.s
@@ -206,7 +206,7 @@ client.s: client.cpp.s
 
 # target to generate assembly for a file
 client.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/client.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f src/obclient/CMakeFiles/obclient.dir/build.make src/obclient/CMakeFiles/obclient.dir/client.cpp.s
 .PHONY : client.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

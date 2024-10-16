@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 # Include any dependencies generated for this target.
 include unittest/common/CMakeFiles/integer_generator_test.dir/depend.make
@@ -72,16 +72,16 @@ include unittest/common/CMakeFiles/integer_generator_test.dir/flags.make
 unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o: unittest/common/CMakeFiles/integer_generator_test.dir/flags.make
 unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o: ../unittest/common/integer_generator_test.cpp
 unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o: unittest/common/CMakeFiles/integer_generator_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o"
-	cd /root/oceanbase/oceanbase/build/unittest/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o -MF CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o.d -o CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o -c /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o"
+	cd /root/oceanbase/oceanbase/build_debug/unittest/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o -MF CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o.d -o CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o -c /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp
 
 unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.i"
-	cd /root/oceanbase/oceanbase/build/unittest/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp > CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug/unittest/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp > CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.i
 
 unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.s"
-	cd /root/oceanbase/oceanbase/build/unittest/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp -o CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug/unittest/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp -o CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.s
 
 # Object files for target integer_generator_test
 integer_generator_test_OBJECTS = \
@@ -94,18 +94,18 @@ bin/integer_generator_test: unittest/common/CMakeFiles/integer_generator_test.di
 bin/integer_generator_test: unittest/common/CMakeFiles/integer_generator_test.dir/build.make
 bin/integer_generator_test: lib/libcommon.a
 bin/integer_generator_test: unittest/common/CMakeFiles/integer_generator_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/oceanbase/oceanbase/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/integer_generator_test"
-	cd /root/oceanbase/oceanbase/build/unittest/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/integer_generator_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/integer_generator_test"
+	cd /root/oceanbase/oceanbase/build_debug/unittest/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/integer_generator_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 unittest/common/CMakeFiles/integer_generator_test.dir/build: bin/integer_generator_test
 .PHONY : unittest/common/CMakeFiles/integer_generator_test.dir/build
 
 unittest/common/CMakeFiles/integer_generator_test.dir/clean:
-	cd /root/oceanbase/oceanbase/build/unittest/common && $(CMAKE_COMMAND) -P CMakeFiles/integer_generator_test.dir/cmake_clean.cmake
+	cd /root/oceanbase/oceanbase/build_debug/unittest/common && $(CMAKE_COMMAND) -P CMakeFiles/integer_generator_test.dir/cmake_clean.cmake
 .PHONY : unittest/common/CMakeFiles/integer_generator_test.dir/clean
 
 unittest/common/CMakeFiles/integer_generator_test.dir/depend:
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/oceanbase/oceanbase /root/oceanbase/oceanbase/unittest/common /root/oceanbase/oceanbase/build /root/oceanbase/oceanbase/build/unittest/common /root/oceanbase/oceanbase/build/unittest/common/CMakeFiles/integer_generator_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/oceanbase/oceanbase /root/oceanbase/oceanbase/unittest/common /root/oceanbase/oceanbase/build_debug /root/oceanbase/oceanbase/build_debug/unittest/common /root/oceanbase/oceanbase/build_debug/unittest/common/CMakeFiles/integer_generator_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unittest/common/CMakeFiles/integer_generator_test.dir/depend
 

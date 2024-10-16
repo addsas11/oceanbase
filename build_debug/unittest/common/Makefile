@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build/CMakeFiles /root/oceanbase/oceanbase/build/unittest/common//CMakeFiles/progress.marks
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build/CMakeFiles 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles /root/oceanbase/oceanbase/build_debug/unittest/common//CMakeFiles/progress.marks
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/clean
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 unittest/common/CMakeFiles/bitmap_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/bitmap_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/bitmap_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/bitmap_test.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ bitmap_test: unittest/common/CMakeFiles/bitmap_test.dir/rule
 
 # fast build rule for target.
 bitmap_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/build
 .PHONY : bitmap_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/integer_generator_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/integer_generator_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/integer_generator_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/integer_generator_test.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ integer_generator_test: unittest/common/CMakeFiles/integer_generator_test.dir/ru
 
 # fast build rule for target.
 integer_generator_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/build
 .PHONY : integer_generator_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/log_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/log_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/log_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/log_test.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ log_test: unittest/common/CMakeFiles/log_test.dir/rule
 
 # fast build rule for target.
 log_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/build
 .PHONY : log_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/lower_bound_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/lower_bound_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/lower_bound_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/lower_bound_test.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ lower_bound_test: unittest/common/CMakeFiles/lower_bound_test.dir/rule
 
 # fast build rule for target.
 lower_bound_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/build
 .PHONY : lower_bound_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/md5_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/md5_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/md5_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/md5_test.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ md5_test: unittest/common/CMakeFiles/md5_test.dir/rule
 
 # fast build rule for target.
 md5_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/build
 .PHONY : md5_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/mem_pool_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/mem_pool_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/mem_pool_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/mem_pool_test.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ mem_pool_test: unittest/common/CMakeFiles/mem_pool_test.dir/rule
 
 # fast build rule for target.
 mem_pool_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/build
 .PHONY : mem_pool_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/pidfile_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/pidfile_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/pidfile_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/pidfile_test.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ pidfile_test: unittest/common/CMakeFiles/pidfile_test.dir/rule
 
 # fast build rule for target.
 pidfile_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/build
 .PHONY : pidfile_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/serializer_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/serializer_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/serializer_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/serializer_test.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ serializer_test: unittest/common/CMakeFiles/serializer_test.dir/rule
 
 # fast build rule for target.
 serializer_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/build
 .PHONY : serializer_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/simple_queue_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/simple_queue_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/simple_queue_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/simple_queue_test.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ simple_queue_test: unittest/common/CMakeFiles/simple_queue_test.dir/rule
 
 # fast build rule for target.
 simple_queue_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/build
 .PHONY : simple_queue_test/fast
 
 # Convenience name for target.
 unittest/common/CMakeFiles/thread_pool_executor_test.dir/rule:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/thread_pool_executor_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/common/CMakeFiles/thread_pool_executor_test.dir/rule
 .PHONY : unittest/common/CMakeFiles/thread_pool_executor_test.dir/rule
 
 # Convenience name for target.
@@ -308,7 +308,7 @@ thread_pool_executor_test: unittest/common/CMakeFiles/thread_pool_executor_test.
 
 # fast build rule for target.
 thread_pool_executor_test/fast:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/build
 .PHONY : thread_pool_executor_test/fast
 
 bitmap_test.o: bitmap_test.cpp.o
@@ -316,7 +316,7 @@ bitmap_test.o: bitmap_test.cpp.o
 
 # target to build an object file
 bitmap_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.o
 .PHONY : bitmap_test.cpp.o
 
 bitmap_test.i: bitmap_test.cpp.i
@@ -324,7 +324,7 @@ bitmap_test.i: bitmap_test.cpp.i
 
 # target to preprocess a source file
 bitmap_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.i
 .PHONY : bitmap_test.cpp.i
 
 bitmap_test.s: bitmap_test.cpp.s
@@ -332,7 +332,7 @@ bitmap_test.s: bitmap_test.cpp.s
 
 # target to generate assembly for a file
 bitmap_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/bitmap_test.dir/build.make unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.s
 .PHONY : bitmap_test.cpp.s
 
 integer_generator_test.o: integer_generator_test.cpp.o
@@ -340,7 +340,7 @@ integer_generator_test.o: integer_generator_test.cpp.o
 
 # target to build an object file
 integer_generator_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o
 .PHONY : integer_generator_test.cpp.o
 
 integer_generator_test.i: integer_generator_test.cpp.i
@@ -348,7 +348,7 @@ integer_generator_test.i: integer_generator_test.cpp.i
 
 # target to preprocess a source file
 integer_generator_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.i
 .PHONY : integer_generator_test.cpp.i
 
 integer_generator_test.s: integer_generator_test.cpp.s
@@ -356,7 +356,7 @@ integer_generator_test.s: integer_generator_test.cpp.s
 
 # target to generate assembly for a file
 integer_generator_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/integer_generator_test.dir/build.make unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.s
 .PHONY : integer_generator_test.cpp.s
 
 log_test.o: log_test.cpp.o
@@ -364,7 +364,7 @@ log_test.o: log_test.cpp.o
 
 # target to build an object file
 log_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/log_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/log_test.cpp.o
 .PHONY : log_test.cpp.o
 
 log_test.i: log_test.cpp.i
@@ -372,7 +372,7 @@ log_test.i: log_test.cpp.i
 
 # target to preprocess a source file
 log_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/log_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/log_test.cpp.i
 .PHONY : log_test.cpp.i
 
 log_test.s: log_test.cpp.s
@@ -380,7 +380,7 @@ log_test.s: log_test.cpp.s
 
 # target to generate assembly for a file
 log_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/log_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/log_test.dir/build.make unittest/common/CMakeFiles/log_test.dir/log_test.cpp.s
 .PHONY : log_test.cpp.s
 
 lower_bound_test.o: lower_bound_test.cpp.o
@@ -388,7 +388,7 @@ lower_bound_test.o: lower_bound_test.cpp.o
 
 # target to build an object file
 lower_bound_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.o
 .PHONY : lower_bound_test.cpp.o
 
 lower_bound_test.i: lower_bound_test.cpp.i
@@ -396,7 +396,7 @@ lower_bound_test.i: lower_bound_test.cpp.i
 
 # target to preprocess a source file
 lower_bound_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.i
 .PHONY : lower_bound_test.cpp.i
 
 lower_bound_test.s: lower_bound_test.cpp.s
@@ -404,7 +404,7 @@ lower_bound_test.s: lower_bound_test.cpp.s
 
 # target to generate assembly for a file
 lower_bound_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/lower_bound_test.dir/build.make unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.s
 .PHONY : lower_bound_test.cpp.s
 
 md5_test.o: md5_test.cpp.o
@@ -412,7 +412,7 @@ md5_test.o: md5_test.cpp.o
 
 # target to build an object file
 md5_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.o
 .PHONY : md5_test.cpp.o
 
 md5_test.i: md5_test.cpp.i
@@ -420,7 +420,7 @@ md5_test.i: md5_test.cpp.i
 
 # target to preprocess a source file
 md5_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.i
 .PHONY : md5_test.cpp.i
 
 md5_test.s: md5_test.cpp.s
@@ -428,7 +428,7 @@ md5_test.s: md5_test.cpp.s
 
 # target to generate assembly for a file
 md5_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/md5_test.dir/build.make unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.s
 .PHONY : md5_test.cpp.s
 
 mem_pool_test.o: mem_pool_test.cpp.o
@@ -436,7 +436,7 @@ mem_pool_test.o: mem_pool_test.cpp.o
 
 # target to build an object file
 mem_pool_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.o
 .PHONY : mem_pool_test.cpp.o
 
 mem_pool_test.i: mem_pool_test.cpp.i
@@ -444,7 +444,7 @@ mem_pool_test.i: mem_pool_test.cpp.i
 
 # target to preprocess a source file
 mem_pool_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.i
 .PHONY : mem_pool_test.cpp.i
 
 mem_pool_test.s: mem_pool_test.cpp.s
@@ -452,7 +452,7 @@ mem_pool_test.s: mem_pool_test.cpp.s
 
 # target to generate assembly for a file
 mem_pool_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/mem_pool_test.dir/build.make unittest/common/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.s
 .PHONY : mem_pool_test.cpp.s
 
 pidfile_test.o: pidfile_test.cpp.o
@@ -460,7 +460,7 @@ pidfile_test.o: pidfile_test.cpp.o
 
 # target to build an object file
 pidfile_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.o
 .PHONY : pidfile_test.cpp.o
 
 pidfile_test.i: pidfile_test.cpp.i
@@ -468,7 +468,7 @@ pidfile_test.i: pidfile_test.cpp.i
 
 # target to preprocess a source file
 pidfile_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.i
 .PHONY : pidfile_test.cpp.i
 
 pidfile_test.s: pidfile_test.cpp.s
@@ -476,7 +476,7 @@ pidfile_test.s: pidfile_test.cpp.s
 
 # target to generate assembly for a file
 pidfile_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/pidfile_test.dir/build.make unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.s
 .PHONY : pidfile_test.cpp.s
 
 serializer_test.o: serializer_test.cpp.o
@@ -484,7 +484,7 @@ serializer_test.o: serializer_test.cpp.o
 
 # target to build an object file
 serializer_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/serializer_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/serializer_test.cpp.o
 .PHONY : serializer_test.cpp.o
 
 serializer_test.i: serializer_test.cpp.i
@@ -492,7 +492,7 @@ serializer_test.i: serializer_test.cpp.i
 
 # target to preprocess a source file
 serializer_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/serializer_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/serializer_test.cpp.i
 .PHONY : serializer_test.cpp.i
 
 serializer_test.s: serializer_test.cpp.s
@@ -500,7 +500,7 @@ serializer_test.s: serializer_test.cpp.s
 
 # target to generate assembly for a file
 serializer_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/serializer_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/serializer_test.dir/build.make unittest/common/CMakeFiles/serializer_test.dir/serializer_test.cpp.s
 .PHONY : serializer_test.cpp.s
 
 simple_queue_test.o: simple_queue_test.cpp.o
@@ -508,7 +508,7 @@ simple_queue_test.o: simple_queue_test.cpp.o
 
 # target to build an object file
 simple_queue_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.o
 .PHONY : simple_queue_test.cpp.o
 
 simple_queue_test.i: simple_queue_test.cpp.i
@@ -516,7 +516,7 @@ simple_queue_test.i: simple_queue_test.cpp.i
 
 # target to preprocess a source file
 simple_queue_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.i
 .PHONY : simple_queue_test.cpp.i
 
 simple_queue_test.s: simple_queue_test.cpp.s
@@ -524,7 +524,7 @@ simple_queue_test.s: simple_queue_test.cpp.s
 
 # target to generate assembly for a file
 simple_queue_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/simple_queue_test.dir/build.make unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.s
 .PHONY : simple_queue_test.cpp.s
 
 thread_pool_executor_test.o: thread_pool_executor_test.cpp.o
@@ -532,7 +532,7 @@ thread_pool_executor_test.o: thread_pool_executor_test.cpp.o
 
 # target to build an object file
 thread_pool_executor_test.cpp.o:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.o
 .PHONY : thread_pool_executor_test.cpp.o
 
 thread_pool_executor_test.i: thread_pool_executor_test.cpp.i
@@ -540,7 +540,7 @@ thread_pool_executor_test.i: thread_pool_executor_test.cpp.i
 
 # target to preprocess a source file
 thread_pool_executor_test.cpp.i:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.i
 .PHONY : thread_pool_executor_test.cpp.i
 
 thread_pool_executor_test.s: thread_pool_executor_test.cpp.s
@@ -548,7 +548,7 @@ thread_pool_executor_test.s: thread_pool_executor_test.cpp.s
 
 # target to generate assembly for a file
 thread_pool_executor_test.cpp.s:
-	cd /root/oceanbase/oceanbase/build && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/common/CMakeFiles/thread_pool_executor_test.dir/build.make unittest/common/CMakeFiles/thread_pool_executor_test.dir/thread_pool_executor_test.cpp.s
 .PHONY : thread_pool_executor_test.cpp.s
 
 # Help Target
@@ -615,6 +615,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/oceanbase/oceanbase/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
