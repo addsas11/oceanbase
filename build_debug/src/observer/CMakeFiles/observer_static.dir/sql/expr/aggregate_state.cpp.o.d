@@ -1,5 +1,5 @@
 src/observer/CMakeFiles/observer_static.dir/sql/expr/aggregate_state.cpp.o: \
- /root/oceanbase/miniob/src/observer/sql/expr/aggregate_state.cpp \
+ /root/oceanbase/oceanbase/src/observer/sql/expr/aggregate_state.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -12,4 +12,4 @@ src/observer/CMakeFiles/observer_static.dir/sql/expr/aggregate_state.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
  /usr/include/c++/11/pstl/pstl_config.h \
- /root/oceanbase/miniob/src/observer/sql/expr/aggregate_state.h
+ /root/oceanbase/oceanbase/src/observer/sql/expr/aggregate_state.h

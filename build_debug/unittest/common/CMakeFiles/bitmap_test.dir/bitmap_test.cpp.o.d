@@ -1,5 +1,5 @@
 unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.o: \
- /root/oceanbase/miniob/unittest/common/bitmap_test.cpp \
+ /root/oceanbase/oceanbase/unittest/common/bitmap_test.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -12,7 +12,8 @@ unittest/common/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /root/oceanbase/miniob/deps/common/lang/bitmap.h \
+ /usr/include/strings.h \
+ /root/oceanbase/oceanbase/deps/common/lang/bitmap.h \
  /usr/local/include/gtest/gtest.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

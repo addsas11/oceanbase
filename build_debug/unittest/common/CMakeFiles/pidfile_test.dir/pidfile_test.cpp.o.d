@@ -1,5 +1,5 @@
 unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.o: \
- /root/oceanbase/miniob/unittest/common/pidfile_test.cpp \
+ /root/oceanbase/oceanbase/unittest/common/pidfile_test.cpp \
  /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -299,17 +299,17 @@ unittest/common/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/oceanbase/miniob/deps/common/io/io.h \
- /root/oceanbase/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /root/oceanbase/oceanbase/deps/common/io/io.h \
+ /root/oceanbase/oceanbase/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/string.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
- /root/oceanbase/miniob/deps/common/lang/set.h \
- /root/oceanbase/miniob/deps/common/os/pidfile.h
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h \
+ /root/oceanbase/oceanbase/deps/common/os/pidfile.h

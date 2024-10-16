@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
- /root/oceanbase/miniob/deps/common/metrics/histogram_snapshot.cpp \
+ /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.cpp \
  /usr/include/stdc-predef.h \
- /root/oceanbase/miniob/deps/common/metrics/histogram_snapshot.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -142,8 +142,8 @@ deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/metrics/snapshot.h \
- /root/oceanbase/miniob/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/snapshot.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -177,7 +177,7 @@ deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/c++/11/stdlib.h /usr/include/string.h \
- /usr/include/strings.h /root/oceanbase/miniob/deps/common/defs.h \
+ /usr/include/strings.h /root/oceanbase/oceanbase/deps/common/defs.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -239,14 +239,14 @@ deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/set.h /usr/include/c++/11/set \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_set.h \

@@ -1,5 +1,5 @@
 unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp.o: \
- /root/oceanbase/miniob/unittest/common/integer_generator_test.cpp \
+ /root/oceanbase/oceanbase/unittest/common/integer_generator_test.cpp \
  /usr/include/stdc-predef.h /usr/local/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -300,8 +300,8 @@ unittest/common/CMakeFiles/integer_generator_test.dir/integer_generator_test.cpp
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/oceanbase/miniob/deps/common/math/integer_generator.h \
- /root/oceanbase/miniob/deps/common/lang/random.h \
+ /root/oceanbase/oceanbase/deps/common/math/integer_generator.h \
+ /root/oceanbase/oceanbase/deps/common/lang/random.h \
  /usr/include/c++/11/random /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

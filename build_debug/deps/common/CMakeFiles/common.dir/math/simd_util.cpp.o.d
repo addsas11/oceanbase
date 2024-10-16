@@ -1,5 +1,5 @@
 deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o: \
- /root/oceanbase/miniob/deps/common/math/simd_util.cpp \
+ /root/oceanbase/oceanbase/deps/common/math/simd_util.cpp \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -16,4 +16,4 @@ deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /root/oceanbase/miniob/deps/common/math/simd_util.h
+ /root/oceanbase/oceanbase/deps/common/math/simd_util.h

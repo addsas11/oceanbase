@@ -1,8 +1,8 @@
 unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.o: \
- /root/oceanbase/miniob/unittest/common/lower_bound_test.cpp \
+ /root/oceanbase/oceanbase/unittest/common/lower_bound_test.cpp \
  /usr/include/stdc-predef.h \
- /root/oceanbase/miniob/deps/common/lang/lower_bound.h \
- /root/oceanbase/miniob/deps/common/lang/iterator.h \
+ /root/oceanbase/oceanbase/deps/common/lang/lower_bound.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iterator.h \
  /usr/include/c++/11/iterator \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -299,4 +299,4 @@ unittest/common/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h

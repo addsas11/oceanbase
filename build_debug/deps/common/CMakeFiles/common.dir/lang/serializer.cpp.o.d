@@ -1,5 +1,5 @@
 deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: \
- /root/oceanbase/miniob/deps/common/lang/serializer.cpp \
+ /root/oceanbase/oceanbase/deps/common/lang/serializer.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,7 +13,7 @@ deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /root/oceanbase/miniob/deps/common/lang/serializer.h \
+ /root/oceanbase/oceanbase/deps/common/lang/serializer.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -21,7 +21,7 @@ deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -92,8 +92,8 @@ deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/lang/span.h /usr/include/c++/11/span \
- /usr/include/c++/11/array /usr/include/c++/11/utility \
- /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/cstddef \
- /usr/include/c++/11/bits/ranges_base.h \
+ /root/oceanbase/oceanbase/deps/common/lang/span.h \
+ /usr/include/c++/11/span /usr/include/c++/11/array \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/cstddef /usr/include/c++/11/bits/ranges_base.h \
  /usr/include/c++/11/bits/max_size_type.h /usr/include/c++/11/numbers

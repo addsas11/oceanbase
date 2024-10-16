@@ -1,5 +1,5 @@
 unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.o: \
- /root/oceanbase/miniob/unittest/common/simple_queue_test.cpp \
+ /root/oceanbase/oceanbase/unittest/common/simple_queue_test.cpp \
  /usr/include/stdc-predef.h /usr/local/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -300,31 +300,32 @@ unittest/common/CMakeFiles/simple_queue_test.dir/simple_queue_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/oceanbase/miniob/deps/common/lang/memory.h \
- /root/oceanbase/miniob/deps/common/queue/simple_queue.h \
- /root/oceanbase/miniob/deps/common/queue/queue.h \
- /root/oceanbase/miniob/deps/common/lang/mutex.h \
+ /root/oceanbase/oceanbase/deps/common/lang/memory.h \
+ /root/oceanbase/oceanbase/deps/common/queue/simple_queue.h \
+ /root/oceanbase/oceanbase/deps/common/queue/queue.h \
+ /root/oceanbase/oceanbase/deps/common/lang/mutex.h \
  /usr/include/c++/11/shared_mutex \
- /root/oceanbase/miniob/deps/common/lang/thread.h \
- /usr/include/c++/11/thread /root/oceanbase/miniob/deps/common/log/log.h \
- /root/oceanbase/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /root/oceanbase/oceanbase/deps/common/lang/thread.h \
+ /usr/include/c++/11/thread \
+ /root/oceanbase/oceanbase/deps/common/log/log.h \
+ /root/oceanbase/oceanbase/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/string.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
- /root/oceanbase/miniob/deps/common/lang/set.h \
- /root/oceanbase/miniob/deps/common/lang/map.h \
- /root/oceanbase/miniob/deps/common/lang/utility.h \
- /root/oceanbase/miniob/deps/common/lang/functional.h \
- /root/oceanbase/miniob/deps/common/lang/fstream.h \
- /root/oceanbase/miniob/deps/common/lang/queue.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h \
+ /root/oceanbase/oceanbase/deps/common/lang/map.h \
+ /root/oceanbase/oceanbase/deps/common/lang/utility.h \
+ /root/oceanbase/oceanbase/deps/common/lang/functional.h \
+ /root/oceanbase/oceanbase/deps/common/lang/fstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/queue.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_queue.h \
- /root/oceanbase/miniob/deps/common/queue/simple_queue.ipp
+ /root/oceanbase/oceanbase/deps/common/queue/simple_queue.ipp

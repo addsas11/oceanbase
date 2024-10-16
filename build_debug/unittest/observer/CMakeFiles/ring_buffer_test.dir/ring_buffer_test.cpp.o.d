@@ -1,5 +1,5 @@
 unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.o: \
- /root/oceanbase/miniob/unittest/observer/ring_buffer_test.cpp \
+ /root/oceanbase/oceanbase/unittest/observer/ring_buffer_test.cpp \
  /usr/include/stdc-predef.h /usr/local/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -300,6 +300,6 @@ unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/oceanbase/miniob/src/observer/net/ring_buffer.h \
- /root/oceanbase/miniob/src/observer/common/rc.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h
+ /root/oceanbase/oceanbase/src/observer/net/ring_buffer.h \
+ /root/oceanbase/oceanbase/src/observer/common/rc.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h

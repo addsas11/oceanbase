@@ -1,5 +1,5 @@
 deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o: \
- /root/oceanbase/miniob/deps/common/thread/thread_util.cpp \
+ /root/oceanbase/oceanbase/deps/common/thread/thread_util.cpp \
  /usr/include/stdc-predef.h /usr/include/pthread.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

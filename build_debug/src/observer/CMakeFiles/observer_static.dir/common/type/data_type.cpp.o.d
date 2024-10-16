@@ -1,10 +1,10 @@
 src/observer/CMakeFiles/observer_static.dir/common/type/data_type.cpp.o: \
- /root/oceanbase/miniob/src/observer/common/type/data_type.cpp \
+ /root/oceanbase/oceanbase/src/observer/common/type/data_type.cpp \
  /usr/include/stdc-predef.h \
- /root/oceanbase/miniob/src/observer/common/type/char_type.h \
- /root/oceanbase/miniob/src/observer/common/rc.h \
- /root/oceanbase/miniob/src/observer/common/type/data_type.h \
- /root/oceanbase/miniob/deps/common/lang/array.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/char_type.h \
+ /root/oceanbase/oceanbase/src/observer/common/rc.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/data_type.h \
+ /root/oceanbase/oceanbase/deps/common/lang/array.h \
  /usr/include/c++/11/array /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -40,7 +40,7 @@ src/observer/CMakeFiles/observer_static.dir/common/type/data_type.cpp.o: \
  /usr/include/c++/11/debug/debug.h \
  /usr/include/c++/11/bits/predefined_ops.h \
  /usr/include/c++/11/bits/range_access.h \
- /root/oceanbase/miniob/deps/common/lang/memory.h \
+ /root/oceanbase/oceanbase/deps/common/lang/memory.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
  /usr/include/c++/11/ext/new_allocator.h \
@@ -204,7 +204,7 @@ src/observer/CMakeFiles/observer_static.dir/common/type/data_type.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/signal.h \
@@ -230,28 +230,29 @@ src/observer/CMakeFiles/observer_static.dir/common/type/data_type.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/c++/11/stdlib.h /usr/include/string.h \
- /usr/include/strings.h /root/oceanbase/miniob/deps/common/defs.h \
+ /usr/include/strings.h /root/oceanbase/oceanbase/deps/common/defs.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/set.h /usr/include/c++/11/set \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /root/oceanbase/miniob/src/observer/common/type/attr_type.h \
- /root/oceanbase/miniob/src/observer/common/type/float_type.h \
- /root/oceanbase/miniob/src/observer/common/type/integer_type.h
+ /root/oceanbase/oceanbase/src/observer/common/type/attr_type.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/float_type.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/integer_type.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/date_type.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/oceanbase/miniob
+CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/miniob/build_debug
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 # Include any dependencies generated for this target.
 include unittest/observer/CMakeFiles/disk_log_handler_test.dir/depend.make
@@ -72,16 +72,16 @@ include unittest/observer/CMakeFiles/disk_log_handler_test.dir/flags.make
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o: unittest/observer/CMakeFiles/disk_log_handler_test.dir/flags.make
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o: ../unittest/observer/disk_log_handler_test.cpp
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o: unittest/observer/CMakeFiles/disk_log_handler_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/miniob/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o"
-	cd /root/oceanbase/miniob/build_debug/unittest/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o -MF CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o.d -o CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o -c /root/oceanbase/miniob/unittest/observer/disk_log_handler_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o"
+	cd /root/oceanbase/oceanbase/build_debug/unittest/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o -MF CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o.d -o CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o -c /root/oceanbase/oceanbase/unittest/observer/disk_log_handler_test.cpp
 
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.i"
-	cd /root/oceanbase/miniob/build_debug/unittest/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/miniob/unittest/observer/disk_log_handler_test.cpp > CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug/unittest/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/oceanbase/oceanbase/unittest/observer/disk_log_handler_test.cpp > CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.i
 
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.s"
-	cd /root/oceanbase/miniob/build_debug/unittest/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/miniob/unittest/observer/disk_log_handler_test.cpp -o CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug/unittest/observer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/oceanbase/oceanbase/unittest/observer/disk_log_handler_test.cpp -o CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.s
 
 # Object files for target disk_log_handler_test
 disk_log_handler_test_OBJECTS = \
@@ -98,18 +98,18 @@ bin/disk_log_handler_test: lib/libcommon.a
 bin/disk_log_handler_test: /usr/local/lib/libevent_pthreads.a
 bin/disk_log_handler_test: /usr/local/lib/libevent_core.a
 bin/disk_log_handler_test: unittest/observer/CMakeFiles/disk_log_handler_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/oceanbase/miniob/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/disk_log_handler_test"
-	cd /root/oceanbase/miniob/build_debug/unittest/observer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/disk_log_handler_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/oceanbase/oceanbase/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/disk_log_handler_test"
+	cd /root/oceanbase/oceanbase/build_debug/unittest/observer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/disk_log_handler_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/build: bin/disk_log_handler_test
 .PHONY : unittest/observer/CMakeFiles/disk_log_handler_test.dir/build
 
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/clean:
-	cd /root/oceanbase/miniob/build_debug/unittest/observer && $(CMAKE_COMMAND) -P CMakeFiles/disk_log_handler_test.dir/cmake_clean.cmake
+	cd /root/oceanbase/oceanbase/build_debug/unittest/observer && $(CMAKE_COMMAND) -P CMakeFiles/disk_log_handler_test.dir/cmake_clean.cmake
 .PHONY : unittest/observer/CMakeFiles/disk_log_handler_test.dir/clean
 
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/depend:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/oceanbase/miniob /root/oceanbase/miniob/unittest/observer /root/oceanbase/miniob/build_debug /root/oceanbase/miniob/build_debug/unittest/observer /root/oceanbase/miniob/build_debug/unittest/observer/CMakeFiles/disk_log_handler_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/oceanbase/oceanbase /root/oceanbase/oceanbase/unittest/observer /root/oceanbase/oceanbase/build_debug /root/oceanbase/oceanbase/build_debug/unittest/observer /root/oceanbase/oceanbase/build_debug/unittest/observer/CMakeFiles/disk_log_handler_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unittest/observer/CMakeFiles/disk_log_handler_test.dir/depend
 

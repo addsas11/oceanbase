@@ -1,6 +1,6 @@
 deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o: \
- /root/oceanbase/miniob/deps/common/lang/comparator.cpp \
- /usr/include/stdc-predef.h /root/oceanbase/miniob/deps/common/defs.h \
+ /root/oceanbase/oceanbase/deps/common/lang/comparator.cpp \
+ /usr/include/stdc-predef.h /root/oceanbase/oceanbase/deps/common/defs.h \
  /usr/include/errno.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -205,7 +205,7 @@ deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o: \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/string.h \
  /usr/include/strings.h \
- /root/oceanbase/miniob/deps/common/lang/algorithm.h \
+ /root/oceanbase/oceanbase/deps/common/lang/algorithm.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_util.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \

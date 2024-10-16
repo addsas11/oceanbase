@@ -1,4 +1,4 @@
-# Install script for directory: /root/oceanbase/miniob/unittest/observer
+# Install script for directory: /root/oceanbase/oceanbase/unittest/observer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

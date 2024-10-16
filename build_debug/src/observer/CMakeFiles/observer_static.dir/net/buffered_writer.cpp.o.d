@@ -1,5 +1,5 @@
 src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.o: \
- /root/oceanbase/miniob/src/observer/net/buffered_writer.cpp \
+ /root/oceanbase/oceanbase/src/observer/net/buffered_writer.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -179,7 +179,7 @@ src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /root/oceanbase/miniob/src/observer/net/buffered_writer.h \
- /root/oceanbase/miniob/src/observer/net/ring_buffer.h \
- /root/oceanbase/miniob/src/observer/common/rc.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h
+ /root/oceanbase/oceanbase/src/observer/net/buffered_writer.h \
+ /root/oceanbase/oceanbase/src/observer/net/ring_buffer.h \
+ /root/oceanbase/oceanbase/src/observer/common/rc.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h

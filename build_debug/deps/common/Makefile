@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/oceanbase/miniob
+CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/miniob/build_debug
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/miniob/build_debug/CMakeFiles /root/oceanbase/miniob/build_debug/deps/common//CMakeFiles/progress.marks
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/miniob/build_debug/CMakeFiles 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles /root/oceanbase/oceanbase/build_debug/deps/common//CMakeFiles/progress.marks
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/clean
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 deps/common/CMakeFiles/common.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/CMakeFiles/common.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/common/CMakeFiles/common.dir/rule
 .PHONY : deps/common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ common: deps/common/CMakeFiles/common.dir/rule
 
 # fast build rule for target.
 common/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/build
 .PHONY : common/fast
 
 conf/ini.o: conf/ini.cpp.o
@@ -190,7 +190,7 @@ conf/ini.o: conf/ini.cpp.o
 
 # target to build an object file
 conf/ini.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/conf/ini.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/conf/ini.cpp.o
 .PHONY : conf/ini.cpp.o
 
 conf/ini.i: conf/ini.cpp.i
@@ -198,7 +198,7 @@ conf/ini.i: conf/ini.cpp.i
 
 # target to preprocess a source file
 conf/ini.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/conf/ini.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/conf/ini.cpp.i
 .PHONY : conf/ini.cpp.i
 
 conf/ini.s: conf/ini.cpp.s
@@ -206,7 +206,7 @@ conf/ini.s: conf/ini.cpp.s
 
 # target to generate assembly for a file
 conf/ini.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/conf/ini.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/conf/ini.cpp.s
 .PHONY : conf/ini.cpp.s
 
 io/io.o: io/io.cpp.o
@@ -214,7 +214,7 @@ io/io.o: io/io.cpp.o
 
 # target to build an object file
 io/io.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/io/io.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/io/io.cpp.o
 .PHONY : io/io.cpp.o
 
 io/io.i: io/io.cpp.i
@@ -222,7 +222,7 @@ io/io.i: io/io.cpp.i
 
 # target to preprocess a source file
 io/io.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/io/io.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/io/io.cpp.i
 .PHONY : io/io.cpp.i
 
 io/io.s: io/io.cpp.s
@@ -230,7 +230,7 @@ io/io.s: io/io.cpp.s
 
 # target to generate assembly for a file
 io/io.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/io/io.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/io/io.cpp.s
 .PHONY : io/io.cpp.s
 
 lang/bitmap.o: lang/bitmap.cpp.o
@@ -238,7 +238,7 @@ lang/bitmap.o: lang/bitmap.cpp.o
 
 # target to build an object file
 lang/bitmap.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.o
 .PHONY : lang/bitmap.cpp.o
 
 lang/bitmap.i: lang/bitmap.cpp.i
@@ -246,7 +246,7 @@ lang/bitmap.i: lang/bitmap.cpp.i
 
 # target to preprocess a source file
 lang/bitmap.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.i
 .PHONY : lang/bitmap.cpp.i
 
 lang/bitmap.s: lang/bitmap.cpp.s
@@ -254,7 +254,7 @@ lang/bitmap.s: lang/bitmap.cpp.s
 
 # target to generate assembly for a file
 lang/bitmap.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/bitmap.cpp.s
 .PHONY : lang/bitmap.cpp.s
 
 lang/comparator.o: lang/comparator.cpp.o
@@ -262,7 +262,7 @@ lang/comparator.o: lang/comparator.cpp.o
 
 # target to build an object file
 lang/comparator.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/comparator.cpp.o
 .PHONY : lang/comparator.cpp.o
 
 lang/comparator.i: lang/comparator.cpp.i
@@ -270,7 +270,7 @@ lang/comparator.i: lang/comparator.cpp.i
 
 # target to preprocess a source file
 lang/comparator.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/comparator.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/comparator.cpp.i
 .PHONY : lang/comparator.cpp.i
 
 lang/comparator.s: lang/comparator.cpp.s
@@ -278,7 +278,7 @@ lang/comparator.s: lang/comparator.cpp.s
 
 # target to generate assembly for a file
 lang/comparator.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/comparator.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/comparator.cpp.s
 .PHONY : lang/comparator.cpp.s
 
 lang/mutex.o: lang/mutex.cpp.o
@@ -286,7 +286,7 @@ lang/mutex.o: lang/mutex.cpp.o
 
 # target to build an object file
 lang/mutex.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/mutex.cpp.o
 .PHONY : lang/mutex.cpp.o
 
 lang/mutex.i: lang/mutex.cpp.i
@@ -294,7 +294,7 @@ lang/mutex.i: lang/mutex.cpp.i
 
 # target to preprocess a source file
 lang/mutex.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/mutex.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/mutex.cpp.i
 .PHONY : lang/mutex.cpp.i
 
 lang/mutex.s: lang/mutex.cpp.s
@@ -302,7 +302,7 @@ lang/mutex.s: lang/mutex.cpp.s
 
 # target to generate assembly for a file
 lang/mutex.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/mutex.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/mutex.cpp.s
 .PHONY : lang/mutex.cpp.s
 
 lang/serializer.o: lang/serializer.cpp.o
@@ -310,7 +310,7 @@ lang/serializer.o: lang/serializer.cpp.o
 
 # target to build an object file
 lang/serializer.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/serializer.cpp.o
 .PHONY : lang/serializer.cpp.o
 
 lang/serializer.i: lang/serializer.cpp.i
@@ -318,7 +318,7 @@ lang/serializer.i: lang/serializer.cpp.i
 
 # target to preprocess a source file
 lang/serializer.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/serializer.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/serializer.cpp.i
 .PHONY : lang/serializer.cpp.i
 
 lang/serializer.s: lang/serializer.cpp.s
@@ -326,7 +326,7 @@ lang/serializer.s: lang/serializer.cpp.s
 
 # target to generate assembly for a file
 lang/serializer.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/serializer.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/serializer.cpp.s
 .PHONY : lang/serializer.cpp.s
 
 lang/string.o: lang/string.cpp.o
@@ -334,7 +334,7 @@ lang/string.o: lang/string.cpp.o
 
 # target to build an object file
 lang/string.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/string.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/string.cpp.o
 .PHONY : lang/string.cpp.o
 
 lang/string.i: lang/string.cpp.i
@@ -342,7 +342,7 @@ lang/string.i: lang/string.cpp.i
 
 # target to preprocess a source file
 lang/string.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/string.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/string.cpp.i
 .PHONY : lang/string.cpp.i
 
 lang/string.s: lang/string.cpp.s
@@ -350,7 +350,7 @@ lang/string.s: lang/string.cpp.s
 
 # target to generate assembly for a file
 lang/string.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/string.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/lang/string.cpp.s
 .PHONY : lang/string.cpp.s
 
 log/log.o: log/log.cpp.o
@@ -358,7 +358,7 @@ log/log.o: log/log.cpp.o
 
 # target to build an object file
 log/log.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/log/log.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/log/log.cpp.o
 .PHONY : log/log.cpp.o
 
 log/log.i: log/log.cpp.i
@@ -366,7 +366,7 @@ log/log.i: log/log.cpp.i
 
 # target to preprocess a source file
 log/log.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/log/log.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/log/log.cpp.i
 .PHONY : log/log.cpp.i
 
 log/log.s: log/log.cpp.s
@@ -374,7 +374,7 @@ log/log.s: log/log.cpp.s
 
 # target to generate assembly for a file
 log/log.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/log/log.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/log/log.cpp.s
 .PHONY : log/log.cpp.s
 
 math/crc.o: math/crc.cpp.o
@@ -382,7 +382,7 @@ math/crc.o: math/crc.cpp.o
 
 # target to build an object file
 math/crc.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/crc.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/crc.cpp.o
 .PHONY : math/crc.cpp.o
 
 math/crc.i: math/crc.cpp.i
@@ -390,7 +390,7 @@ math/crc.i: math/crc.cpp.i
 
 # target to preprocess a source file
 math/crc.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/crc.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/crc.cpp.i
 .PHONY : math/crc.cpp.i
 
 math/crc.s: math/crc.cpp.s
@@ -398,7 +398,7 @@ math/crc.s: math/crc.cpp.s
 
 # target to generate assembly for a file
 math/crc.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/crc.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/crc.cpp.s
 .PHONY : math/crc.cpp.s
 
 math/md5.o: math/md5.cpp.o
@@ -406,7 +406,7 @@ math/md5.o: math/md5.cpp.o
 
 # target to build an object file
 math/md5.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/md5.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/md5.cpp.o
 .PHONY : math/md5.cpp.o
 
 math/md5.i: math/md5.cpp.i
@@ -414,7 +414,7 @@ math/md5.i: math/md5.cpp.i
 
 # target to preprocess a source file
 math/md5.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/md5.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/md5.cpp.i
 .PHONY : math/md5.cpp.i
 
 math/md5.s: math/md5.cpp.s
@@ -422,7 +422,7 @@ math/md5.s: math/md5.cpp.s
 
 # target to generate assembly for a file
 math/md5.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/md5.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/md5.cpp.s
 .PHONY : math/md5.cpp.s
 
 math/random_generator.o: math/random_generator.cpp.o
@@ -430,7 +430,7 @@ math/random_generator.o: math/random_generator.cpp.o
 
 # target to build an object file
 math/random_generator.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o
 .PHONY : math/random_generator.cpp.o
 
 math/random_generator.i: math/random_generator.cpp.i
@@ -438,7 +438,7 @@ math/random_generator.i: math/random_generator.cpp.i
 
 # target to preprocess a source file
 math/random_generator.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/random_generator.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/random_generator.cpp.i
 .PHONY : math/random_generator.cpp.i
 
 math/random_generator.s: math/random_generator.cpp.s
@@ -446,7 +446,7 @@ math/random_generator.s: math/random_generator.cpp.s
 
 # target to generate assembly for a file
 math/random_generator.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/random_generator.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/random_generator.cpp.s
 .PHONY : math/random_generator.cpp.s
 
 math/regex.o: math/regex.cpp.o
@@ -454,7 +454,7 @@ math/regex.o: math/regex.cpp.o
 
 # target to build an object file
 math/regex.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/regex.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/regex.cpp.o
 .PHONY : math/regex.cpp.o
 
 math/regex.i: math/regex.cpp.i
@@ -462,7 +462,7 @@ math/regex.i: math/regex.cpp.i
 
 # target to preprocess a source file
 math/regex.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/regex.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/regex.cpp.i
 .PHONY : math/regex.cpp.i
 
 math/regex.s: math/regex.cpp.s
@@ -470,7 +470,7 @@ math/regex.s: math/regex.cpp.s
 
 # target to generate assembly for a file
 math/regex.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/regex.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/regex.cpp.s
 .PHONY : math/regex.cpp.s
 
 math/simd_util.o: math/simd_util.cpp.o
@@ -478,7 +478,7 @@ math/simd_util.o: math/simd_util.cpp.o
 
 # target to build an object file
 math/simd_util.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/simd_util.cpp.o
 .PHONY : math/simd_util.cpp.o
 
 math/simd_util.i: math/simd_util.cpp.i
@@ -486,7 +486,7 @@ math/simd_util.i: math/simd_util.cpp.i
 
 # target to preprocess a source file
 math/simd_util.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/simd_util.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/simd_util.cpp.i
 .PHONY : math/simd_util.cpp.i
 
 math/simd_util.s: math/simd_util.cpp.s
@@ -494,7 +494,7 @@ math/simd_util.s: math/simd_util.cpp.s
 
 # target to generate assembly for a file
 math/simd_util.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/simd_util.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/math/simd_util.cpp.s
 .PHONY : math/simd_util.cpp.s
 
 metrics/console_reporter.o: metrics/console_reporter.cpp.o
@@ -502,7 +502,7 @@ metrics/console_reporter.o: metrics/console_reporter.cpp.o
 
 # target to build an object file
 metrics/console_reporter.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.o
 .PHONY : metrics/console_reporter.cpp.o
 
 metrics/console_reporter.i: metrics/console_reporter.cpp.i
@@ -510,7 +510,7 @@ metrics/console_reporter.i: metrics/console_reporter.cpp.i
 
 # target to preprocess a source file
 metrics/console_reporter.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.i
 .PHONY : metrics/console_reporter.cpp.i
 
 metrics/console_reporter.s: metrics/console_reporter.cpp.s
@@ -518,7 +518,7 @@ metrics/console_reporter.s: metrics/console_reporter.cpp.s
 
 # target to generate assembly for a file
 metrics/console_reporter.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/console_reporter.cpp.s
 .PHONY : metrics/console_reporter.cpp.s
 
 metrics/histogram_snapshot.o: metrics/histogram_snapshot.cpp.o
@@ -526,7 +526,7 @@ metrics/histogram_snapshot.o: metrics/histogram_snapshot.cpp.o
 
 # target to build an object file
 metrics/histogram_snapshot.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o
 .PHONY : metrics/histogram_snapshot.cpp.o
 
 metrics/histogram_snapshot.i: metrics/histogram_snapshot.cpp.i
@@ -534,7 +534,7 @@ metrics/histogram_snapshot.i: metrics/histogram_snapshot.cpp.i
 
 # target to preprocess a source file
 metrics/histogram_snapshot.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.i
 .PHONY : metrics/histogram_snapshot.cpp.i
 
 metrics/histogram_snapshot.s: metrics/histogram_snapshot.cpp.s
@@ -542,7 +542,7 @@ metrics/histogram_snapshot.s: metrics/histogram_snapshot.cpp.s
 
 # target to generate assembly for a file
 metrics/histogram_snapshot.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.s
 .PHONY : metrics/histogram_snapshot.cpp.s
 
 metrics/log_reporter.o: metrics/log_reporter.cpp.o
@@ -550,7 +550,7 @@ metrics/log_reporter.o: metrics/log_reporter.cpp.o
 
 # target to build an object file
 metrics/log_reporter.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.o
 .PHONY : metrics/log_reporter.cpp.o
 
 metrics/log_reporter.i: metrics/log_reporter.cpp.i
@@ -558,7 +558,7 @@ metrics/log_reporter.i: metrics/log_reporter.cpp.i
 
 # target to preprocess a source file
 metrics/log_reporter.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.i
 .PHONY : metrics/log_reporter.cpp.i
 
 metrics/log_reporter.s: metrics/log_reporter.cpp.s
@@ -566,7 +566,7 @@ metrics/log_reporter.s: metrics/log_reporter.cpp.s
 
 # target to generate assembly for a file
 metrics/log_reporter.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/log_reporter.cpp.s
 .PHONY : metrics/log_reporter.cpp.s
 
 metrics/metrics.o: metrics/metrics.cpp.o
@@ -574,7 +574,7 @@ metrics/metrics.o: metrics/metrics.cpp.o
 
 # target to build an object file
 metrics/metrics.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.o
 .PHONY : metrics/metrics.cpp.o
 
 metrics/metrics.i: metrics/metrics.cpp.i
@@ -582,7 +582,7 @@ metrics/metrics.i: metrics/metrics.cpp.i
 
 # target to preprocess a source file
 metrics/metrics.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.i
 .PHONY : metrics/metrics.cpp.i
 
 metrics/metrics.s: metrics/metrics.cpp.s
@@ -590,7 +590,7 @@ metrics/metrics.s: metrics/metrics.cpp.s
 
 # target to generate assembly for a file
 metrics/metrics.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics.cpp.s
 .PHONY : metrics/metrics.cpp.s
 
 metrics/metrics_registry.o: metrics/metrics_registry.cpp.o
@@ -598,7 +598,7 @@ metrics/metrics_registry.o: metrics/metrics_registry.cpp.o
 
 # target to build an object file
 metrics/metrics_registry.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.o
 .PHONY : metrics/metrics_registry.cpp.o
 
 metrics/metrics_registry.i: metrics/metrics_registry.cpp.i
@@ -606,7 +606,7 @@ metrics/metrics_registry.i: metrics/metrics_registry.cpp.i
 
 # target to preprocess a source file
 metrics/metrics_registry.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.i
 .PHONY : metrics/metrics_registry.cpp.i
 
 metrics/metrics_registry.s: metrics/metrics_registry.cpp.s
@@ -614,7 +614,7 @@ metrics/metrics_registry.s: metrics/metrics_registry.cpp.s
 
 # target to generate assembly for a file
 metrics/metrics_registry.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/metrics_registry.cpp.s
 .PHONY : metrics/metrics_registry.cpp.s
 
 metrics/reporter.o: metrics/reporter.cpp.o
@@ -622,7 +622,7 @@ metrics/reporter.o: metrics/reporter.cpp.o
 
 # target to build an object file
 metrics/reporter.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.o
 .PHONY : metrics/reporter.cpp.o
 
 metrics/reporter.i: metrics/reporter.cpp.i
@@ -630,7 +630,7 @@ metrics/reporter.i: metrics/reporter.cpp.i
 
 # target to preprocess a source file
 metrics/reporter.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.i
 .PHONY : metrics/reporter.cpp.i
 
 metrics/reporter.s: metrics/reporter.cpp.s
@@ -638,7 +638,7 @@ metrics/reporter.s: metrics/reporter.cpp.s
 
 # target to generate assembly for a file
 metrics/reporter.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reporter.cpp.s
 .PHONY : metrics/reporter.cpp.s
 
 metrics/reservoir.o: metrics/reservoir.cpp.o
@@ -646,7 +646,7 @@ metrics/reservoir.o: metrics/reservoir.cpp.o
 
 # target to build an object file
 metrics/reservoir.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.o
 .PHONY : metrics/reservoir.cpp.o
 
 metrics/reservoir.i: metrics/reservoir.cpp.i
@@ -654,7 +654,7 @@ metrics/reservoir.i: metrics/reservoir.cpp.i
 
 # target to preprocess a source file
 metrics/reservoir.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.i
 .PHONY : metrics/reservoir.cpp.i
 
 metrics/reservoir.s: metrics/reservoir.cpp.s
@@ -662,7 +662,7 @@ metrics/reservoir.s: metrics/reservoir.cpp.s
 
 # target to generate assembly for a file
 metrics/reservoir.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/reservoir.cpp.s
 .PHONY : metrics/reservoir.cpp.s
 
 metrics/sampler.o: metrics/sampler.cpp.o
@@ -670,7 +670,7 @@ metrics/sampler.o: metrics/sampler.cpp.o
 
 # target to build an object file
 metrics/sampler.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o
 .PHONY : metrics/sampler.cpp.o
 
 metrics/sampler.i: metrics/sampler.cpp.i
@@ -678,7 +678,7 @@ metrics/sampler.i: metrics/sampler.cpp.i
 
 # target to preprocess a source file
 metrics/sampler.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.i
 .PHONY : metrics/sampler.cpp.i
 
 metrics/sampler.s: metrics/sampler.cpp.s
@@ -686,7 +686,7 @@ metrics/sampler.s: metrics/sampler.cpp.s
 
 # target to generate assembly for a file
 metrics/sampler.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.s
 .PHONY : metrics/sampler.cpp.s
 
 metrics/timer_snapshot.o: metrics/timer_snapshot.cpp.o
@@ -694,7 +694,7 @@ metrics/timer_snapshot.o: metrics/timer_snapshot.cpp.o
 
 # target to build an object file
 metrics/timer_snapshot.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.o
 .PHONY : metrics/timer_snapshot.cpp.o
 
 metrics/timer_snapshot.i: metrics/timer_snapshot.cpp.i
@@ -702,7 +702,7 @@ metrics/timer_snapshot.i: metrics/timer_snapshot.cpp.i
 
 # target to preprocess a source file
 metrics/timer_snapshot.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.i
 .PHONY : metrics/timer_snapshot.cpp.i
 
 metrics/timer_snapshot.s: metrics/timer_snapshot.cpp.s
@@ -710,7 +710,7 @@ metrics/timer_snapshot.s: metrics/timer_snapshot.cpp.s
 
 # target to generate assembly for a file
 metrics/timer_snapshot.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/timer_snapshot.cpp.s
 .PHONY : metrics/timer_snapshot.cpp.s
 
 metrics/uniform_reservoir.o: metrics/uniform_reservoir.cpp.o
@@ -718,7 +718,7 @@ metrics/uniform_reservoir.o: metrics/uniform_reservoir.cpp.o
 
 # target to build an object file
 metrics/uniform_reservoir.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.o
 .PHONY : metrics/uniform_reservoir.cpp.o
 
 metrics/uniform_reservoir.i: metrics/uniform_reservoir.cpp.i
@@ -726,7 +726,7 @@ metrics/uniform_reservoir.i: metrics/uniform_reservoir.cpp.i
 
 # target to preprocess a source file
 metrics/uniform_reservoir.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.i
 .PHONY : metrics/uniform_reservoir.cpp.i
 
 metrics/uniform_reservoir.s: metrics/uniform_reservoir.cpp.s
@@ -734,7 +734,7 @@ metrics/uniform_reservoir.s: metrics/uniform_reservoir.cpp.s
 
 # target to generate assembly for a file
 metrics/uniform_reservoir.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/metrics/uniform_reservoir.cpp.s
 .PHONY : metrics/uniform_reservoir.cpp.s
 
 mm/mem_pool.o: mm/mem_pool.cpp.o
@@ -742,7 +742,7 @@ mm/mem_pool.o: mm/mem_pool.cpp.o
 
 # target to build an object file
 mm/mem_pool.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.o
 .PHONY : mm/mem_pool.cpp.o
 
 mm/mem_pool.i: mm/mem_pool.cpp.i
@@ -750,7 +750,7 @@ mm/mem_pool.i: mm/mem_pool.cpp.i
 
 # target to preprocess a source file
 mm/mem_pool.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.i
 .PHONY : mm/mem_pool.cpp.i
 
 mm/mem_pool.s: mm/mem_pool.cpp.s
@@ -758,7 +758,7 @@ mm/mem_pool.s: mm/mem_pool.cpp.s
 
 # target to generate assembly for a file
 mm/mem_pool.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/mm/mem_pool.cpp.s
 .PHONY : mm/mem_pool.cpp.s
 
 os/os.o: os/os.cpp.o
@@ -766,7 +766,7 @@ os/os.o: os/os.cpp.o
 
 # target to build an object file
 os/os.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/os.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/os.cpp.o
 .PHONY : os/os.cpp.o
 
 os/os.i: os/os.cpp.i
@@ -774,7 +774,7 @@ os/os.i: os/os.cpp.i
 
 # target to preprocess a source file
 os/os.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/os.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/os.cpp.i
 .PHONY : os/os.cpp.i
 
 os/os.s: os/os.cpp.s
@@ -782,7 +782,7 @@ os/os.s: os/os.cpp.s
 
 # target to generate assembly for a file
 os/os.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/os.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/os.cpp.s
 .PHONY : os/os.cpp.s
 
 os/path.o: os/path.cpp.o
@@ -790,7 +790,7 @@ os/path.o: os/path.cpp.o
 
 # target to build an object file
 os/path.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/path.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/path.cpp.o
 .PHONY : os/path.cpp.o
 
 os/path.i: os/path.cpp.i
@@ -798,7 +798,7 @@ os/path.i: os/path.cpp.i
 
 # target to preprocess a source file
 os/path.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/path.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/path.cpp.i
 .PHONY : os/path.cpp.i
 
 os/path.s: os/path.cpp.s
@@ -806,7 +806,7 @@ os/path.s: os/path.cpp.s
 
 # target to generate assembly for a file
 os/path.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/path.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/path.cpp.s
 .PHONY : os/path.cpp.s
 
 os/pidfile.o: os/pidfile.cpp.o
@@ -814,7 +814,7 @@ os/pidfile.o: os/pidfile.cpp.o
 
 # target to build an object file
 os/pidfile.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/pidfile.cpp.o
 .PHONY : os/pidfile.cpp.o
 
 os/pidfile.i: os/pidfile.cpp.i
@@ -822,7 +822,7 @@ os/pidfile.i: os/pidfile.cpp.i
 
 # target to preprocess a source file
 os/pidfile.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/pidfile.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/pidfile.cpp.i
 .PHONY : os/pidfile.cpp.i
 
 os/pidfile.s: os/pidfile.cpp.s
@@ -830,7 +830,7 @@ os/pidfile.s: os/pidfile.cpp.s
 
 # target to generate assembly for a file
 os/pidfile.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/pidfile.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/pidfile.cpp.s
 .PHONY : os/pidfile.cpp.s
 
 os/process.o: os/process.cpp.o
@@ -838,7 +838,7 @@ os/process.o: os/process.cpp.o
 
 # target to build an object file
 os/process.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process.cpp.o
 .PHONY : os/process.cpp.o
 
 os/process.i: os/process.cpp.i
@@ -846,7 +846,7 @@ os/process.i: os/process.cpp.i
 
 # target to preprocess a source file
 os/process.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process.cpp.i
 .PHONY : os/process.cpp.i
 
 os/process.s: os/process.cpp.s
@@ -854,7 +854,7 @@ os/process.s: os/process.cpp.s
 
 # target to generate assembly for a file
 os/process.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process.cpp.s
 .PHONY : os/process.cpp.s
 
 os/process_param.o: os/process_param.cpp.o
@@ -862,7 +862,7 @@ os/process_param.o: os/process_param.cpp.o
 
 # target to build an object file
 os/process_param.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process_param.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process_param.cpp.o
 .PHONY : os/process_param.cpp.o
 
 os/process_param.i: os/process_param.cpp.i
@@ -870,7 +870,7 @@ os/process_param.i: os/process_param.cpp.i
 
 # target to preprocess a source file
 os/process_param.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process_param.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process_param.cpp.i
 .PHONY : os/process_param.cpp.i
 
 os/process_param.s: os/process_param.cpp.s
@@ -878,7 +878,7 @@ os/process_param.s: os/process_param.cpp.s
 
 # target to generate assembly for a file
 os/process_param.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process_param.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/process_param.cpp.s
 .PHONY : os/process_param.cpp.s
 
 os/signal.o: os/signal.cpp.o
@@ -886,7 +886,7 @@ os/signal.o: os/signal.cpp.o
 
 # target to build an object file
 os/signal.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/signal.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/signal.cpp.o
 .PHONY : os/signal.cpp.o
 
 os/signal.i: os/signal.cpp.i
@@ -894,7 +894,7 @@ os/signal.i: os/signal.cpp.i
 
 # target to preprocess a source file
 os/signal.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/signal.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/signal.cpp.i
 .PHONY : os/signal.cpp.i
 
 os/signal.s: os/signal.cpp.s
@@ -902,7 +902,7 @@ os/signal.s: os/signal.cpp.s
 
 # target to generate assembly for a file
 os/signal.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/signal.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/os/signal.cpp.s
 .PHONY : os/signal.cpp.s
 
 thread/thread_pool_executor.o: thread/thread_pool_executor.cpp.o
@@ -910,7 +910,7 @@ thread/thread_pool_executor.o: thread/thread_pool_executor.cpp.o
 
 # target to build an object file
 thread/thread_pool_executor.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o
 .PHONY : thread/thread_pool_executor.cpp.o
 
 thread/thread_pool_executor.i: thread/thread_pool_executor.cpp.i
@@ -918,7 +918,7 @@ thread/thread_pool_executor.i: thread/thread_pool_executor.cpp.i
 
 # target to preprocess a source file
 thread/thread_pool_executor.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.i
 .PHONY : thread/thread_pool_executor.cpp.i
 
 thread/thread_pool_executor.s: thread/thread_pool_executor.cpp.s
@@ -926,7 +926,7 @@ thread/thread_pool_executor.s: thread/thread_pool_executor.cpp.s
 
 # target to generate assembly for a file
 thread/thread_pool_executor.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.s
 .PHONY : thread/thread_pool_executor.cpp.s
 
 thread/thread_util.o: thread/thread_util.cpp.o
@@ -934,7 +934,7 @@ thread/thread_util.o: thread/thread_util.cpp.o
 
 # target to build an object file
 thread/thread_util.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.o
 .PHONY : thread/thread_util.cpp.o
 
 thread/thread_util.i: thread/thread_util.cpp.i
@@ -942,7 +942,7 @@ thread/thread_util.i: thread/thread_util.cpp.i
 
 # target to preprocess a source file
 thread/thread_util.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.i
 .PHONY : thread/thread_util.cpp.i
 
 thread/thread_util.s: thread/thread_util.cpp.s
@@ -950,7 +950,7 @@ thread/thread_util.s: thread/thread_util.cpp.s
 
 # target to generate assembly for a file
 thread/thread_util.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/thread/thread_util.cpp.s
 .PHONY : thread/thread_util.cpp.s
 
 time/datetime.o: time/datetime.cpp.o
@@ -958,7 +958,7 @@ time/datetime.o: time/datetime.cpp.o
 
 # target to build an object file
 time/datetime.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/datetime.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/datetime.cpp.o
 .PHONY : time/datetime.cpp.o
 
 time/datetime.i: time/datetime.cpp.i
@@ -966,7 +966,7 @@ time/datetime.i: time/datetime.cpp.i
 
 # target to preprocess a source file
 time/datetime.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/datetime.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/datetime.cpp.i
 .PHONY : time/datetime.cpp.i
 
 time/datetime.s: time/datetime.cpp.s
@@ -974,7 +974,7 @@ time/datetime.s: time/datetime.cpp.s
 
 # target to generate assembly for a file
 time/datetime.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/datetime.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/datetime.cpp.s
 .PHONY : time/datetime.cpp.s
 
 time/timeout_info.o: time/timeout_info.cpp.o
@@ -982,7 +982,7 @@ time/timeout_info.o: time/timeout_info.cpp.o
 
 # target to build an object file
 time/timeout_info.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.o
 .PHONY : time/timeout_info.cpp.o
 
 time/timeout_info.i: time/timeout_info.cpp.i
@@ -990,7 +990,7 @@ time/timeout_info.i: time/timeout_info.cpp.i
 
 # target to preprocess a source file
 time/timeout_info.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.i
 .PHONY : time/timeout_info.cpp.i
 
 time/timeout_info.s: time/timeout_info.cpp.s
@@ -998,7 +998,7 @@ time/timeout_info.s: time/timeout_info.cpp.s
 
 # target to generate assembly for a file
 time/timeout_info.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f deps/common/CMakeFiles/common.dir/build.make deps/common/CMakeFiles/common.dir/time/timeout_info.cpp.s
 .PHONY : time/timeout_info.cpp.s
 
 # Help Target
@@ -1128,6 +1128,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

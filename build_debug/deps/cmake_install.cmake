@@ -1,4 +1,4 @@
-# Install script for directory: /root/oceanbase/miniob/deps
+# Install script for directory: /root/oceanbase/oceanbase/deps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/oceanbase/miniob/build_debug/deps/common/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build_debug/deps/common/cmake_install.cmake")
 
 endif()
 

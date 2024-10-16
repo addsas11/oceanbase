@@ -1,5 +1,5 @@
 unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.o: \
- /root/oceanbase/miniob/unittest/common/md5_test.cpp \
+ /root/oceanbase/oceanbase/unittest/common/md5_test.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,5 +24,5 @@ unittest/common/CMakeFiles/md5_test.dir/md5_test.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /root/oceanbase/miniob/deps/common/math/md5.h \
- /root/oceanbase/miniob/unittest/common/md5_test.h
+ /root/oceanbase/oceanbase/deps/common/math/md5.h \
+ /root/oceanbase/oceanbase/unittest/common/md5_test.h

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/oceanbase/miniob
+CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/miniob/build_debug
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/miniob/build_debug/CMakeFiles /root/oceanbase/miniob/build_debug/unittest/observer//CMakeFiles/progress.marks
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/miniob/build_debug/CMakeFiles 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles /root/oceanbase/oceanbase/build_debug/unittest/observer//CMakeFiles/progress.marks
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/clean
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ aggregate_hash_table_test: unittest/observer/CMakeFiles/aggregate_hash_table_tes
 
 # fast build rule for target.
 aggregate_hash_table_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build
 .PHONY : aggregate_hash_table_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/arithmetic_operator_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/arithmetic_operator_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/arithmetic_operator_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/arithmetic_operator_test.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ arithmetic_operator_test: unittest/observer/CMakeFiles/arithmetic_operator_test.
 
 # fast build rule for target.
 arithmetic_operator_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build
 .PHONY : arithmetic_operator_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/bp_manager_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bp_manager_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bp_manager_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/bp_manager_test.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ bp_manager_test: unittest/observer/CMakeFiles/bp_manager_test.dir/rule
 
 # fast build rule for target.
 bp_manager_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/build
 .PHONY : bp_manager_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ bplus_tree_log_entry_test: unittest/observer/CMakeFiles/bplus_tree_log_entry_tes
 
 # fast build rule for target.
 bplus_tree_log_entry_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build
 .PHONY : bplus_tree_log_entry_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/bplus_tree_log_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bplus_tree_log_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bplus_tree_log_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/bplus_tree_log_test.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ bplus_tree_log_test: unittest/observer/CMakeFiles/bplus_tree_log_test.dir/rule
 
 # fast build rule for target.
 bplus_tree_log_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build
 .PHONY : bplus_tree_log_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/bplus_tree_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bplus_tree_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/bplus_tree_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/bplus_tree_test.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ bplus_tree_test: unittest/observer/CMakeFiles/bplus_tree_test.dir/rule
 
 # fast build rule for target.
 bplus_tree_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/build
 .PHONY : bplus_tree_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/buffer_pool_log_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/buffer_pool_log_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/buffer_pool_log_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/buffer_pool_log_test.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ buffer_pool_log_test: unittest/observer/CMakeFiles/buffer_pool_log_test.dir/rule
 
 # fast build rule for target.
 buffer_pool_log_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build
 .PHONY : buffer_pool_log_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/chunk_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/chunk_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/chunk_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/chunk_test.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ chunk_test: unittest/observer/CMakeFiles/chunk_test.dir/rule
 
 # fast build rule for target.
 chunk_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/build
 .PHONY : chunk_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/composite_tuple_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/composite_tuple_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/composite_tuple_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/composite_tuple_test.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ composite_tuple_test: unittest/observer/CMakeFiles/composite_tuple_test.dir/rule
 
 # fast build rule for target.
 composite_tuple_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/build
 .PHONY : composite_tuple_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ disk_buffer_pool_test: unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/ru
 
 # fast build rule for target.
 disk_buffer_pool_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build
 .PHONY : disk_buffer_pool_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/disk_log_handler_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/disk_log_handler_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/disk_log_handler_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/disk_log_handler_test.dir/rule
 
 # Convenience name for target.
@@ -322,12 +322,12 @@ disk_log_handler_test: unittest/observer/CMakeFiles/disk_log_handler_test.dir/ru
 
 # fast build rule for target.
 disk_log_handler_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/build
 .PHONY : disk_log_handler_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/double_write_buffer_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/double_write_buffer_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/double_write_buffer_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/double_write_buffer_test.dir/rule
 
 # Convenience name for target.
@@ -336,12 +336,12 @@ double_write_buffer_test: unittest/observer/CMakeFiles/double_write_buffer_test.
 
 # fast build rule for target.
 double_write_buffer_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/build
 .PHONY : double_write_buffer_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/expression_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/expression_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/expression_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/expression_test.dir/rule
 
 # Convenience name for target.
@@ -350,12 +350,12 @@ expression_test: unittest/observer/CMakeFiles/expression_test.dir/rule
 
 # fast build rule for target.
 expression_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/build
 .PHONY : expression_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/log_buffer_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/log_buffer_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/log_buffer_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/log_buffer_test.dir/rule
 
 # Convenience name for target.
@@ -364,12 +364,12 @@ log_buffer_test: unittest/observer/CMakeFiles/log_buffer_test.dir/rule
 
 # fast build rule for target.
 log_buffer_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/build
 .PHONY : log_buffer_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/log_entry_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/log_entry_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/log_entry_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/log_entry_test.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ log_entry_test: unittest/observer/CMakeFiles/log_entry_test.dir/rule
 
 # fast build rule for target.
 log_entry_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/build
 .PHONY : log_entry_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/log_file_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/log_file_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/log_file_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/log_file_test.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ log_file_test: unittest/observer/CMakeFiles/log_file_test.dir/rule
 
 # fast build rule for target.
 log_file_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/build
 .PHONY : log_file_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/rule
 
 # Convenience name for target.
@@ -406,12 +406,12 @@ mvcc_trx_log_test: unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/rule
 
 # fast build rule for target.
 mvcc_trx_log_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build
 .PHONY : mvcc_trx_log_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/parser_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/parser_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/parser_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/parser_test.dir/rule
 
 # Convenience name for target.
@@ -420,12 +420,12 @@ parser_test: unittest/observer/CMakeFiles/parser_test.dir/rule
 
 # fast build rule for target.
 parser_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/build
 .PHONY : parser_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/pax_storage_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/pax_storage_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/pax_storage_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/pax_storage_test.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ pax_storage_test: unittest/observer/CMakeFiles/pax_storage_test.dir/rule
 
 # fast build rule for target.
 pax_storage_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/build
 .PHONY : pax_storage_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/persist_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/persist_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/persist_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/persist_test.dir/rule
 
 # Convenience name for target.
@@ -448,12 +448,12 @@ persist_test: unittest/observer/CMakeFiles/persist_test.dir/rule
 
 # fast build rule for target.
 persist_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/build
 .PHONY : persist_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/record_manager_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/record_manager_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/record_manager_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/record_manager_test.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ record_manager_test: unittest/observer/CMakeFiles/record_manager_test.dir/rule
 
 # fast build rule for target.
 record_manager_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/build
 .PHONY : record_manager_test/fast
 
 # Convenience name for target.
 unittest/observer/CMakeFiles/ring_buffer_test.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/ring_buffer_test.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unittest/observer/CMakeFiles/ring_buffer_test.dir/rule
 .PHONY : unittest/observer/CMakeFiles/ring_buffer_test.dir/rule
 
 # Convenience name for target.
@@ -476,7 +476,7 @@ ring_buffer_test: unittest/observer/CMakeFiles/ring_buffer_test.dir/rule
 
 # fast build rule for target.
 ring_buffer_test/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/build
 .PHONY : ring_buffer_test/fast
 
 aggregate_hash_table_test.o: aggregate_hash_table_test.cpp.o
@@ -484,7 +484,7 @@ aggregate_hash_table_test.o: aggregate_hash_table_test.cpp.o
 
 # target to build an object file
 aggregate_hash_table_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/aggregate_hash_table_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/aggregate_hash_table_test.cpp.o
 .PHONY : aggregate_hash_table_test.cpp.o
 
 aggregate_hash_table_test.i: aggregate_hash_table_test.cpp.i
@@ -492,7 +492,7 @@ aggregate_hash_table_test.i: aggregate_hash_table_test.cpp.i
 
 # target to preprocess a source file
 aggregate_hash_table_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/aggregate_hash_table_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/aggregate_hash_table_test.cpp.i
 .PHONY : aggregate_hash_table_test.cpp.i
 
 aggregate_hash_table_test.s: aggregate_hash_table_test.cpp.s
@@ -500,7 +500,7 @@ aggregate_hash_table_test.s: aggregate_hash_table_test.cpp.s
 
 # target to generate assembly for a file
 aggregate_hash_table_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/aggregate_hash_table_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/build.make unittest/observer/CMakeFiles/aggregate_hash_table_test.dir/aggregate_hash_table_test.cpp.s
 .PHONY : aggregate_hash_table_test.cpp.s
 
 arithmetic_operator_test.o: arithmetic_operator_test.cpp.o
@@ -508,7 +508,7 @@ arithmetic_operator_test.o: arithmetic_operator_test.cpp.o
 
 # target to build an object file
 arithmetic_operator_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/arithmetic_operator_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/arithmetic_operator_test.cpp.o
 .PHONY : arithmetic_operator_test.cpp.o
 
 arithmetic_operator_test.i: arithmetic_operator_test.cpp.i
@@ -516,7 +516,7 @@ arithmetic_operator_test.i: arithmetic_operator_test.cpp.i
 
 # target to preprocess a source file
 arithmetic_operator_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/arithmetic_operator_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/arithmetic_operator_test.cpp.i
 .PHONY : arithmetic_operator_test.cpp.i
 
 arithmetic_operator_test.s: arithmetic_operator_test.cpp.s
@@ -524,7 +524,7 @@ arithmetic_operator_test.s: arithmetic_operator_test.cpp.s
 
 # target to generate assembly for a file
 arithmetic_operator_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/arithmetic_operator_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/arithmetic_operator_test.dir/build.make unittest/observer/CMakeFiles/arithmetic_operator_test.dir/arithmetic_operator_test.cpp.s
 .PHONY : arithmetic_operator_test.cpp.s
 
 bp_manager_test.o: bp_manager_test.cpp.o
@@ -532,7 +532,7 @@ bp_manager_test.o: bp_manager_test.cpp.o
 
 # target to build an object file
 bp_manager_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/bp_manager_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/bp_manager_test.cpp.o
 .PHONY : bp_manager_test.cpp.o
 
 bp_manager_test.i: bp_manager_test.cpp.i
@@ -540,7 +540,7 @@ bp_manager_test.i: bp_manager_test.cpp.i
 
 # target to preprocess a source file
 bp_manager_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/bp_manager_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/bp_manager_test.cpp.i
 .PHONY : bp_manager_test.cpp.i
 
 bp_manager_test.s: bp_manager_test.cpp.s
@@ -548,7 +548,7 @@ bp_manager_test.s: bp_manager_test.cpp.s
 
 # target to generate assembly for a file
 bp_manager_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/bp_manager_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bp_manager_test.dir/build.make unittest/observer/CMakeFiles/bp_manager_test.dir/bp_manager_test.cpp.s
 .PHONY : bp_manager_test.cpp.s
 
 bplus_tree_log_entry_test.o: bplus_tree_log_entry_test.cpp.o
@@ -556,7 +556,7 @@ bplus_tree_log_entry_test.o: bplus_tree_log_entry_test.cpp.o
 
 # target to build an object file
 bplus_tree_log_entry_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/bplus_tree_log_entry_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/bplus_tree_log_entry_test.cpp.o
 .PHONY : bplus_tree_log_entry_test.cpp.o
 
 bplus_tree_log_entry_test.i: bplus_tree_log_entry_test.cpp.i
@@ -564,7 +564,7 @@ bplus_tree_log_entry_test.i: bplus_tree_log_entry_test.cpp.i
 
 # target to preprocess a source file
 bplus_tree_log_entry_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/bplus_tree_log_entry_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/bplus_tree_log_entry_test.cpp.i
 .PHONY : bplus_tree_log_entry_test.cpp.i
 
 bplus_tree_log_entry_test.s: bplus_tree_log_entry_test.cpp.s
@@ -572,7 +572,7 @@ bplus_tree_log_entry_test.s: bplus_tree_log_entry_test.cpp.s
 
 # target to generate assembly for a file
 bplus_tree_log_entry_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/bplus_tree_log_entry_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_entry_test.dir/bplus_tree_log_entry_test.cpp.s
 .PHONY : bplus_tree_log_entry_test.cpp.s
 
 bplus_tree_log_test.o: bplus_tree_log_test.cpp.o
@@ -580,7 +580,7 @@ bplus_tree_log_test.o: bplus_tree_log_test.cpp.o
 
 # target to build an object file
 bplus_tree_log_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/bplus_tree_log_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/bplus_tree_log_test.cpp.o
 .PHONY : bplus_tree_log_test.cpp.o
 
 bplus_tree_log_test.i: bplus_tree_log_test.cpp.i
@@ -588,7 +588,7 @@ bplus_tree_log_test.i: bplus_tree_log_test.cpp.i
 
 # target to preprocess a source file
 bplus_tree_log_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/bplus_tree_log_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/bplus_tree_log_test.cpp.i
 .PHONY : bplus_tree_log_test.cpp.i
 
 bplus_tree_log_test.s: bplus_tree_log_test.cpp.s
@@ -596,7 +596,7 @@ bplus_tree_log_test.s: bplus_tree_log_test.cpp.s
 
 # target to generate assembly for a file
 bplus_tree_log_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/bplus_tree_log_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_log_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_log_test.dir/bplus_tree_log_test.cpp.s
 .PHONY : bplus_tree_log_test.cpp.s
 
 bplus_tree_test.o: bplus_tree_test.cpp.o
@@ -604,7 +604,7 @@ bplus_tree_test.o: bplus_tree_test.cpp.o
 
 # target to build an object file
 bplus_tree_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/bplus_tree_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/bplus_tree_test.cpp.o
 .PHONY : bplus_tree_test.cpp.o
 
 bplus_tree_test.i: bplus_tree_test.cpp.i
@@ -612,7 +612,7 @@ bplus_tree_test.i: bplus_tree_test.cpp.i
 
 # target to preprocess a source file
 bplus_tree_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/bplus_tree_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/bplus_tree_test.cpp.i
 .PHONY : bplus_tree_test.cpp.i
 
 bplus_tree_test.s: bplus_tree_test.cpp.s
@@ -620,7 +620,7 @@ bplus_tree_test.s: bplus_tree_test.cpp.s
 
 # target to generate assembly for a file
 bplus_tree_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/bplus_tree_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/bplus_tree_test.dir/build.make unittest/observer/CMakeFiles/bplus_tree_test.dir/bplus_tree_test.cpp.s
 .PHONY : bplus_tree_test.cpp.s
 
 buffer_pool_log_test.o: buffer_pool_log_test.cpp.o
@@ -628,7 +628,7 @@ buffer_pool_log_test.o: buffer_pool_log_test.cpp.o
 
 # target to build an object file
 buffer_pool_log_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/buffer_pool_log_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/buffer_pool_log_test.cpp.o
 .PHONY : buffer_pool_log_test.cpp.o
 
 buffer_pool_log_test.i: buffer_pool_log_test.cpp.i
@@ -636,7 +636,7 @@ buffer_pool_log_test.i: buffer_pool_log_test.cpp.i
 
 # target to preprocess a source file
 buffer_pool_log_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/buffer_pool_log_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/buffer_pool_log_test.cpp.i
 .PHONY : buffer_pool_log_test.cpp.i
 
 buffer_pool_log_test.s: buffer_pool_log_test.cpp.s
@@ -644,7 +644,7 @@ buffer_pool_log_test.s: buffer_pool_log_test.cpp.s
 
 # target to generate assembly for a file
 buffer_pool_log_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/buffer_pool_log_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/buffer_pool_log_test.dir/build.make unittest/observer/CMakeFiles/buffer_pool_log_test.dir/buffer_pool_log_test.cpp.s
 .PHONY : buffer_pool_log_test.cpp.s
 
 chunk_test.o: chunk_test.cpp.o
@@ -652,7 +652,7 @@ chunk_test.o: chunk_test.cpp.o
 
 # target to build an object file
 chunk_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/chunk_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/chunk_test.cpp.o
 .PHONY : chunk_test.cpp.o
 
 chunk_test.i: chunk_test.cpp.i
@@ -660,7 +660,7 @@ chunk_test.i: chunk_test.cpp.i
 
 # target to preprocess a source file
 chunk_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/chunk_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/chunk_test.cpp.i
 .PHONY : chunk_test.cpp.i
 
 chunk_test.s: chunk_test.cpp.s
@@ -668,7 +668,7 @@ chunk_test.s: chunk_test.cpp.s
 
 # target to generate assembly for a file
 chunk_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/chunk_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/chunk_test.dir/build.make unittest/observer/CMakeFiles/chunk_test.dir/chunk_test.cpp.s
 .PHONY : chunk_test.cpp.s
 
 composite_tuple_test.o: composite_tuple_test.cpp.o
@@ -676,7 +676,7 @@ composite_tuple_test.o: composite_tuple_test.cpp.o
 
 # target to build an object file
 composite_tuple_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/composite_tuple_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/composite_tuple_test.cpp.o
 .PHONY : composite_tuple_test.cpp.o
 
 composite_tuple_test.i: composite_tuple_test.cpp.i
@@ -684,7 +684,7 @@ composite_tuple_test.i: composite_tuple_test.cpp.i
 
 # target to preprocess a source file
 composite_tuple_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/composite_tuple_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/composite_tuple_test.cpp.i
 .PHONY : composite_tuple_test.cpp.i
 
 composite_tuple_test.s: composite_tuple_test.cpp.s
@@ -692,7 +692,7 @@ composite_tuple_test.s: composite_tuple_test.cpp.s
 
 # target to generate assembly for a file
 composite_tuple_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/composite_tuple_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/composite_tuple_test.dir/build.make unittest/observer/CMakeFiles/composite_tuple_test.dir/composite_tuple_test.cpp.s
 .PHONY : composite_tuple_test.cpp.s
 
 disk_buffer_pool_test.o: disk_buffer_pool_test.cpp.o
@@ -700,7 +700,7 @@ disk_buffer_pool_test.o: disk_buffer_pool_test.cpp.o
 
 # target to build an object file
 disk_buffer_pool_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/disk_buffer_pool_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/disk_buffer_pool_test.cpp.o
 .PHONY : disk_buffer_pool_test.cpp.o
 
 disk_buffer_pool_test.i: disk_buffer_pool_test.cpp.i
@@ -708,7 +708,7 @@ disk_buffer_pool_test.i: disk_buffer_pool_test.cpp.i
 
 # target to preprocess a source file
 disk_buffer_pool_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/disk_buffer_pool_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/disk_buffer_pool_test.cpp.i
 .PHONY : disk_buffer_pool_test.cpp.i
 
 disk_buffer_pool_test.s: disk_buffer_pool_test.cpp.s
@@ -716,7 +716,7 @@ disk_buffer_pool_test.s: disk_buffer_pool_test.cpp.s
 
 # target to generate assembly for a file
 disk_buffer_pool_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/disk_buffer_pool_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/build.make unittest/observer/CMakeFiles/disk_buffer_pool_test.dir/disk_buffer_pool_test.cpp.s
 .PHONY : disk_buffer_pool_test.cpp.s
 
 disk_log_handler_test.o: disk_log_handler_test.cpp.o
@@ -724,7 +724,7 @@ disk_log_handler_test.o: disk_log_handler_test.cpp.o
 
 # target to build an object file
 disk_log_handler_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.o
 .PHONY : disk_log_handler_test.cpp.o
 
 disk_log_handler_test.i: disk_log_handler_test.cpp.i
@@ -732,7 +732,7 @@ disk_log_handler_test.i: disk_log_handler_test.cpp.i
 
 # target to preprocess a source file
 disk_log_handler_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.i
 .PHONY : disk_log_handler_test.cpp.i
 
 disk_log_handler_test.s: disk_log_handler_test.cpp.s
@@ -740,7 +740,7 @@ disk_log_handler_test.s: disk_log_handler_test.cpp.s
 
 # target to generate assembly for a file
 disk_log_handler_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/disk_log_handler_test.dir/build.make unittest/observer/CMakeFiles/disk_log_handler_test.dir/disk_log_handler_test.cpp.s
 .PHONY : disk_log_handler_test.cpp.s
 
 double_write_buffer_test.o: double_write_buffer_test.cpp.o
@@ -748,7 +748,7 @@ double_write_buffer_test.o: double_write_buffer_test.cpp.o
 
 # target to build an object file
 double_write_buffer_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/double_write_buffer_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/double_write_buffer_test.cpp.o
 .PHONY : double_write_buffer_test.cpp.o
 
 double_write_buffer_test.i: double_write_buffer_test.cpp.i
@@ -756,7 +756,7 @@ double_write_buffer_test.i: double_write_buffer_test.cpp.i
 
 # target to preprocess a source file
 double_write_buffer_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/double_write_buffer_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/double_write_buffer_test.cpp.i
 .PHONY : double_write_buffer_test.cpp.i
 
 double_write_buffer_test.s: double_write_buffer_test.cpp.s
@@ -764,7 +764,7 @@ double_write_buffer_test.s: double_write_buffer_test.cpp.s
 
 # target to generate assembly for a file
 double_write_buffer_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/double_write_buffer_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/double_write_buffer_test.dir/build.make unittest/observer/CMakeFiles/double_write_buffer_test.dir/double_write_buffer_test.cpp.s
 .PHONY : double_write_buffer_test.cpp.s
 
 expression_test.o: expression_test.cpp.o
@@ -772,7 +772,7 @@ expression_test.o: expression_test.cpp.o
 
 # target to build an object file
 expression_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/expression_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/expression_test.cpp.o
 .PHONY : expression_test.cpp.o
 
 expression_test.i: expression_test.cpp.i
@@ -780,7 +780,7 @@ expression_test.i: expression_test.cpp.i
 
 # target to preprocess a source file
 expression_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/expression_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/expression_test.cpp.i
 .PHONY : expression_test.cpp.i
 
 expression_test.s: expression_test.cpp.s
@@ -788,7 +788,7 @@ expression_test.s: expression_test.cpp.s
 
 # target to generate assembly for a file
 expression_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/expression_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/expression_test.dir/build.make unittest/observer/CMakeFiles/expression_test.dir/expression_test.cpp.s
 .PHONY : expression_test.cpp.s
 
 log_buffer_test.o: log_buffer_test.cpp.o
@@ -796,7 +796,7 @@ log_buffer_test.o: log_buffer_test.cpp.o
 
 # target to build an object file
 log_buffer_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/log_buffer_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/log_buffer_test.cpp.o
 .PHONY : log_buffer_test.cpp.o
 
 log_buffer_test.i: log_buffer_test.cpp.i
@@ -804,7 +804,7 @@ log_buffer_test.i: log_buffer_test.cpp.i
 
 # target to preprocess a source file
 log_buffer_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/log_buffer_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/log_buffer_test.cpp.i
 .PHONY : log_buffer_test.cpp.i
 
 log_buffer_test.s: log_buffer_test.cpp.s
@@ -812,7 +812,7 @@ log_buffer_test.s: log_buffer_test.cpp.s
 
 # target to generate assembly for a file
 log_buffer_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/log_buffer_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_buffer_test.dir/build.make unittest/observer/CMakeFiles/log_buffer_test.dir/log_buffer_test.cpp.s
 .PHONY : log_buffer_test.cpp.s
 
 log_entry_test.o: log_entry_test.cpp.o
@@ -820,7 +820,7 @@ log_entry_test.o: log_entry_test.cpp.o
 
 # target to build an object file
 log_entry_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.o
 .PHONY : log_entry_test.cpp.o
 
 log_entry_test.i: log_entry_test.cpp.i
@@ -828,7 +828,7 @@ log_entry_test.i: log_entry_test.cpp.i
 
 # target to preprocess a source file
 log_entry_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.i
 .PHONY : log_entry_test.cpp.i
 
 log_entry_test.s: log_entry_test.cpp.s
@@ -836,7 +836,7 @@ log_entry_test.s: log_entry_test.cpp.s
 
 # target to generate assembly for a file
 log_entry_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_entry_test.dir/build.make unittest/observer/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.s
 .PHONY : log_entry_test.cpp.s
 
 log_file_test.o: log_file_test.cpp.o
@@ -844,7 +844,7 @@ log_file_test.o: log_file_test.cpp.o
 
 # target to build an object file
 log_file_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/log_file_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/log_file_test.cpp.o
 .PHONY : log_file_test.cpp.o
 
 log_file_test.i: log_file_test.cpp.i
@@ -852,7 +852,7 @@ log_file_test.i: log_file_test.cpp.i
 
 # target to preprocess a source file
 log_file_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/log_file_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/log_file_test.cpp.i
 .PHONY : log_file_test.cpp.i
 
 log_file_test.s: log_file_test.cpp.s
@@ -860,7 +860,7 @@ log_file_test.s: log_file_test.cpp.s
 
 # target to generate assembly for a file
 log_file_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/log_file_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/log_file_test.dir/build.make unittest/observer/CMakeFiles/log_file_test.dir/log_file_test.cpp.s
 .PHONY : log_file_test.cpp.s
 
 mvcc_trx_log_test.o: mvcc_trx_log_test.cpp.o
@@ -868,7 +868,7 @@ mvcc_trx_log_test.o: mvcc_trx_log_test.cpp.o
 
 # target to build an object file
 mvcc_trx_log_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/mvcc_trx_log_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/mvcc_trx_log_test.cpp.o
 .PHONY : mvcc_trx_log_test.cpp.o
 
 mvcc_trx_log_test.i: mvcc_trx_log_test.cpp.i
@@ -876,7 +876,7 @@ mvcc_trx_log_test.i: mvcc_trx_log_test.cpp.i
 
 # target to preprocess a source file
 mvcc_trx_log_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/mvcc_trx_log_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/mvcc_trx_log_test.cpp.i
 .PHONY : mvcc_trx_log_test.cpp.i
 
 mvcc_trx_log_test.s: mvcc_trx_log_test.cpp.s
@@ -884,7 +884,7 @@ mvcc_trx_log_test.s: mvcc_trx_log_test.cpp.s
 
 # target to generate assembly for a file
 mvcc_trx_log_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/mvcc_trx_log_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/build.make unittest/observer/CMakeFiles/mvcc_trx_log_test.dir/mvcc_trx_log_test.cpp.s
 .PHONY : mvcc_trx_log_test.cpp.s
 
 parser_test.o: parser_test.cpp.o
@@ -892,7 +892,7 @@ parser_test.o: parser_test.cpp.o
 
 # target to build an object file
 parser_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/parser_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/parser_test.cpp.o
 .PHONY : parser_test.cpp.o
 
 parser_test.i: parser_test.cpp.i
@@ -900,7 +900,7 @@ parser_test.i: parser_test.cpp.i
 
 # target to preprocess a source file
 parser_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/parser_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/parser_test.cpp.i
 .PHONY : parser_test.cpp.i
 
 parser_test.s: parser_test.cpp.s
@@ -908,7 +908,7 @@ parser_test.s: parser_test.cpp.s
 
 # target to generate assembly for a file
 parser_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/parser_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/parser_test.dir/build.make unittest/observer/CMakeFiles/parser_test.dir/parser_test.cpp.s
 .PHONY : parser_test.cpp.s
 
 pax_storage_test.o: pax_storage_test.cpp.o
@@ -916,7 +916,7 @@ pax_storage_test.o: pax_storage_test.cpp.o
 
 # target to build an object file
 pax_storage_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/pax_storage_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/pax_storage_test.cpp.o
 .PHONY : pax_storage_test.cpp.o
 
 pax_storage_test.i: pax_storage_test.cpp.i
@@ -924,7 +924,7 @@ pax_storage_test.i: pax_storage_test.cpp.i
 
 # target to preprocess a source file
 pax_storage_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/pax_storage_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/pax_storage_test.cpp.i
 .PHONY : pax_storage_test.cpp.i
 
 pax_storage_test.s: pax_storage_test.cpp.s
@@ -932,7 +932,7 @@ pax_storage_test.s: pax_storage_test.cpp.s
 
 # target to generate assembly for a file
 pax_storage_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/pax_storage_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/pax_storage_test.dir/build.make unittest/observer/CMakeFiles/pax_storage_test.dir/pax_storage_test.cpp.s
 .PHONY : pax_storage_test.cpp.s
 
 persist_test.o: persist_test.cpp.o
@@ -940,7 +940,7 @@ persist_test.o: persist_test.cpp.o
 
 # target to build an object file
 persist_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/persist_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/persist_test.cpp.o
 .PHONY : persist_test.cpp.o
 
 persist_test.i: persist_test.cpp.i
@@ -948,7 +948,7 @@ persist_test.i: persist_test.cpp.i
 
 # target to preprocess a source file
 persist_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/persist_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/persist_test.cpp.i
 .PHONY : persist_test.cpp.i
 
 persist_test.s: persist_test.cpp.s
@@ -956,7 +956,7 @@ persist_test.s: persist_test.cpp.s
 
 # target to generate assembly for a file
 persist_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/persist_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/persist_test.dir/build.make unittest/observer/CMakeFiles/persist_test.dir/persist_test.cpp.s
 .PHONY : persist_test.cpp.s
 
 record_manager_test.o: record_manager_test.cpp.o
@@ -964,7 +964,7 @@ record_manager_test.o: record_manager_test.cpp.o
 
 # target to build an object file
 record_manager_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.o
 .PHONY : record_manager_test.cpp.o
 
 record_manager_test.i: record_manager_test.cpp.i
@@ -972,7 +972,7 @@ record_manager_test.i: record_manager_test.cpp.i
 
 # target to preprocess a source file
 record_manager_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.i
 .PHONY : record_manager_test.cpp.i
 
 record_manager_test.s: record_manager_test.cpp.s
@@ -980,7 +980,7 @@ record_manager_test.s: record_manager_test.cpp.s
 
 # target to generate assembly for a file
 record_manager_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/record_manager_test.dir/build.make unittest/observer/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.s
 .PHONY : record_manager_test.cpp.s
 
 ring_buffer_test.o: ring_buffer_test.cpp.o
@@ -988,7 +988,7 @@ ring_buffer_test.o: ring_buffer_test.cpp.o
 
 # target to build an object file
 ring_buffer_test.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.o
 .PHONY : ring_buffer_test.cpp.o
 
 ring_buffer_test.i: ring_buffer_test.cpp.i
@@ -996,7 +996,7 @@ ring_buffer_test.i: ring_buffer_test.cpp.i
 
 # target to preprocess a source file
 ring_buffer_test.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.i
 .PHONY : ring_buffer_test.cpp.i
 
 ring_buffer_test.s: ring_buffer_test.cpp.s
@@ -1004,7 +1004,7 @@ ring_buffer_test.s: ring_buffer_test.cpp.s
 
 # target to generate assembly for a file
 ring_buffer_test.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f unittest/observer/CMakeFiles/ring_buffer_test.dir/build.make unittest/observer/CMakeFiles/ring_buffer_test.dir/ring_buffer_test.cpp.s
 .PHONY : ring_buffer_test.cpp.s
 
 # Help Target
@@ -1119,6 +1119,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

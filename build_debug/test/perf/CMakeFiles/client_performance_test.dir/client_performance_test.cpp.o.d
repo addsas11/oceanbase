@@ -1,5 +1,5 @@
 test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o: \
- /root/oceanbase/miniob/test/perf/client_performance_test.cpp \
+ /root/oceanbase/oceanbase/test/perf/client_performance_test.cpp \
  /usr/include/stdc-predef.h /usr/include/arpa/inet.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -91,7 +91,7 @@ test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o: 
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /root/oceanbase/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /root/oceanbase/oceanbase/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
@@ -227,11 +227,11 @@ test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o: 
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/metrics/console_reporter.h \
- /root/oceanbase/miniob/deps/common/metrics/reporter.h \
- /root/oceanbase/miniob/deps/common/metrics/metric.h \
- /root/oceanbase/miniob/deps/common/metrics/snapshot.h \
- /root/oceanbase/miniob/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/console_reporter.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/reporter.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/metric.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/snapshot.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/signal.h \
@@ -254,30 +254,30 @@ test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o: 
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/set.h /usr/include/c++/11/set \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /root/oceanbase/miniob/deps/common/metrics/metrics.h \
- /root/oceanbase/miniob/deps/common/metrics/timer_snapshot.h \
- /root/oceanbase/miniob/deps/common/metrics/histogram_snapshot.h \
- /root/oceanbase/miniob/deps/common/metrics/uniform_reservoir.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/metrics.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/timer_snapshot.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/histogram_snapshot.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/uniform_reservoir.h \
  /usr/include/c++/11/atomic \
- /root/oceanbase/miniob/deps/common/metrics/reservoir.h \
- /root/oceanbase/miniob/deps/common/math/random_generator.h \
- /root/oceanbase/miniob/deps/common/lang/random.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/reservoir.h \
+ /root/oceanbase/oceanbase/deps/common/math/random_generator.h \
+ /root/oceanbase/oceanbase/deps/common/lang/random.h \
  /usr/include/c++/11/random /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -306,7 +306,7 @@ test/perf/CMakeFiles/client_performance_test.dir/client_performance_test.cpp.o: 
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /root/oceanbase/miniob/deps/common/metrics/metrics_registry.h \
+ /root/oceanbase/oceanbase/deps/common/metrics/metrics_registry.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_map.h \

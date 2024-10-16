@@ -1,4 +1,4 @@
-# Install script for directory: /root/oceanbase/miniob/unittest
+# Install script for directory: /root/oceanbase/oceanbase/unittest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/oceanbase/miniob/build_debug/unittest/common/cmake_install.cmake")
-  include("/root/oceanbase/miniob/build_debug/unittest/observer/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build_debug/unittest/common/cmake_install.cmake")
+  include("/root/oceanbase/oceanbase/build_debug/unittest/observer/cmake_install.cmake")
 
 endif()
 

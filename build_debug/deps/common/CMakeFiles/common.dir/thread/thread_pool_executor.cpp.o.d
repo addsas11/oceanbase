@@ -1,5 +1,5 @@
 deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: \
- /root/oceanbase/miniob/deps/common/thread/thread_pool_executor.cpp \
+ /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/thread \
  /usr/include/c++/11/compare /usr/include/c++/11/concepts \
  /usr/include/c++/11/type_traits \
@@ -189,10 +189,10 @@ deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /root/oceanbase/miniob/deps/common/thread/thread_pool_executor.h \
- /root/oceanbase/miniob/deps/common/queue/queue.h \
- /root/oceanbase/miniob/deps/common/thread/runnable.h \
- /root/oceanbase/miniob/deps/common/lang/functional.h \
+ /root/oceanbase/oceanbase/deps/common/thread/thread_pool_executor.h \
+ /root/oceanbase/oceanbase/deps/common/queue/queue.h \
+ /root/oceanbase/oceanbase/deps/common/thread/runnable.h \
+ /root/oceanbase/oceanbase/deps/common/lang/functional.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -206,7 +206,7 @@ deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/lang/mutex.h \
+ /root/oceanbase/oceanbase/deps/common/lang/mutex.h \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/unique_lock.h \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -218,9 +218,10 @@ deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/string.h \
- /usr/include/strings.h /root/oceanbase/miniob/deps/common/lang/thread.h \
- /root/oceanbase/miniob/deps/common/log/log.h /usr/include/assert.h \
- /root/oceanbase/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/strings.h \
+ /root/oceanbase/oceanbase/deps/common/lang/thread.h \
+ /root/oceanbase/oceanbase/deps/common/log/log.h /usr/include/assert.h \
+ /root/oceanbase/oceanbase/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -236,7 +237,7 @@ deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/signal.h \
@@ -262,25 +263,25 @@ deps/common/CMakeFiles/common.dir/thread/thread_pool_executor.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/c++/11/stdlib.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
- /root/oceanbase/miniob/deps/common/lang/set.h /usr/include/c++/11/set \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/oceanbase/miniob/deps/common/lang/map.h \
- /root/oceanbase/miniob/deps/common/lang/utility.h \
- /root/oceanbase/miniob/deps/common/lang/fstream.h \
- /root/oceanbase/miniob/deps/common/lang/atomic.h \
- /root/oceanbase/miniob/deps/common/lang/memory.h \
- /root/oceanbase/miniob/deps/common/lang/chrono.h \
- /root/oceanbase/miniob/deps/common/queue/simple_queue.h \
- /root/oceanbase/miniob/deps/common/lang/queue.h \
+ /root/oceanbase/oceanbase/deps/common/lang/map.h \
+ /root/oceanbase/oceanbase/deps/common/lang/utility.h \
+ /root/oceanbase/oceanbase/deps/common/lang/fstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/atomic.h \
+ /root/oceanbase/oceanbase/deps/common/lang/memory.h \
+ /root/oceanbase/oceanbase/deps/common/lang/chrono.h \
+ /root/oceanbase/oceanbase/deps/common/queue/simple_queue.h \
+ /root/oceanbase/oceanbase/deps/common/lang/queue.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_queue.h \
- /root/oceanbase/miniob/deps/common/queue/simple_queue.ipp \
- /root/oceanbase/miniob/deps/common/thread/thread_util.h
+ /root/oceanbase/oceanbase/deps/common/queue/simple_queue.ipp \
+ /root/oceanbase/oceanbase/deps/common/thread/thread_util.h

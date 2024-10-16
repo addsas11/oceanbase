@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/oceanbase/miniob
+CMAKE_SOURCE_DIR = /root/oceanbase/oceanbase
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/oceanbase/miniob/build_debug
+CMAKE_BINARY_DIR = /root/oceanbase/oceanbase/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/miniob/build_debug/CMakeFiles /root/oceanbase/miniob/build_debug/tools//CMakeFiles/progress.marks
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/miniob/build_debug/CMakeFiles 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles /root/oceanbase/oceanbase/build_debug/tools//CMakeFiles/progress.marks
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/oceanbase/oceanbase/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/clean
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/CMakeFiles/clog_dump.dir/rule:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/clog_dump.dir/rule
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/clog_dump.dir/rule
 .PHONY : tools/CMakeFiles/clog_dump.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ clog_dump: tools/CMakeFiles/clog_dump.dir/rule
 
 # fast build rule for target.
 clog_dump/fast:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/build
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/build
 .PHONY : clog_dump/fast
 
 clog_dump.o: clog_dump.cpp.o
@@ -190,7 +190,7 @@ clog_dump.o: clog_dump.cpp.o
 
 # target to build an object file
 clog_dump.cpp.o:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/clog_dump.cpp.o
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/clog_dump.cpp.o
 .PHONY : clog_dump.cpp.o
 
 clog_dump.i: clog_dump.cpp.i
@@ -198,7 +198,7 @@ clog_dump.i: clog_dump.cpp.i
 
 # target to preprocess a source file
 clog_dump.cpp.i:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/clog_dump.cpp.i
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/clog_dump.cpp.i
 .PHONY : clog_dump.cpp.i
 
 clog_dump.s: clog_dump.cpp.s
@@ -206,7 +206,7 @@ clog_dump.s: clog_dump.cpp.s
 
 # target to generate assembly for a file
 clog_dump.cpp.s:
-	cd /root/oceanbase/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/clog_dump.cpp.s
+	cd /root/oceanbase/oceanbase/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_dump.dir/build.make tools/CMakeFiles/clog_dump.dir/clog_dump.cpp.s
 .PHONY : clog_dump.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/oceanbase/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/oceanbase/oceanbase/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /root/oceanbase/miniob/unittest/common
+# Install script for directory: /root/oceanbase/oceanbase/unittest/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

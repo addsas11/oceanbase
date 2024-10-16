@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o: \
- /root/oceanbase/miniob/deps/common/math/random_generator.cpp \
+ /root/oceanbase/oceanbase/deps/common/math/random_generator.cpp \
  /usr/include/stdc-predef.h \
- /root/oceanbase/miniob/deps/common/math/random_generator.h \
+ /root/oceanbase/oceanbase/deps/common/math/random_generator.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -49,7 +49,7 @@ deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/11/bits/std_abs.h \
- /root/oceanbase/miniob/deps/common/lang/random.h \
+ /root/oceanbase/oceanbase/deps/common/lang/random.h \
  /usr/include/c++/11/random /usr/include/c++/11/cmath \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
@@ -173,6 +173,6 @@ deps/common/CMakeFiles/common.dir/math/random_generator.cpp.o: \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/lang/chrono.h \
+ /root/oceanbase/oceanbase/deps/common/lang/chrono.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h

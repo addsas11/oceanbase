@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/observer_static.dir/common/type/char_type.cpp.o.d"
   "CMakeFiles/observer_static.dir/common/type/data_type.cpp.o"
   "CMakeFiles/observer_static.dir/common/type/data_type.cpp.o.d"
+  "CMakeFiles/observer_static.dir/common/type/date_type.cpp.o"
+  "CMakeFiles/observer_static.dir/common/type/date_type.cpp.o.d"
   "CMakeFiles/observer_static.dir/common/type/float_type.cpp.o"
   "CMakeFiles/observer_static.dir/common/type/float_type.cpp.o.d"
   "CMakeFiles/observer_static.dir/common/type/integer_type.cpp.o"

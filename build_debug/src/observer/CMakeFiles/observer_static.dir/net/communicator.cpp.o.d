@@ -1,9 +1,9 @@
 src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
- /root/oceanbase/miniob/src/observer/net/communicator.cpp \
+ /root/oceanbase/oceanbase/src/observer/net/communicator.cpp \
  /usr/include/stdc-predef.h \
- /root/oceanbase/miniob/src/observer/net/communicator.h \
- /root/oceanbase/miniob/src/observer/common/rc.h \
- /root/oceanbase/miniob/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/src/observer/net/communicator.h \
+ /root/oceanbase/oceanbase/src/observer/common/rc.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -174,7 +174,7 @@ src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /root/oceanbase/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /root/oceanbase/oceanbase/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/nested_exception.h \
@@ -235,31 +235,32 @@ src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/set.h /usr/include/c++/11/set \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /root/oceanbase/miniob/deps/common/lang/memory.h \
- /root/oceanbase/miniob/src/observer/net/buffered_writer.h \
- /root/oceanbase/miniob/src/observer/net/ring_buffer.h \
- /root/oceanbase/miniob/src/observer/net/cli_communicator.h \
- /root/oceanbase/miniob/src/observer/net/plain_communicator.h \
- /root/oceanbase/miniob/src/observer/net/mysql_communicator.h \
- /root/oceanbase/miniob/src/observer/session/session.h \
- /root/oceanbase/miniob/src/observer/common/types.h \
- /usr/include/inttypes.h /root/oceanbase/miniob/deps/common/lang/mutex.h \
+ /root/oceanbase/oceanbase/deps/common/lang/memory.h \
+ /root/oceanbase/oceanbase/src/observer/net/buffered_writer.h \
+ /root/oceanbase/oceanbase/src/observer/net/ring_buffer.h \
+ /root/oceanbase/oceanbase/src/observer/net/cli_communicator.h \
+ /root/oceanbase/oceanbase/src/observer/net/plain_communicator.h \
+ /root/oceanbase/oceanbase/src/observer/net/mysql_communicator.h \
+ /root/oceanbase/oceanbase/src/observer/session/session.h \
+ /root/oceanbase/oceanbase/src/observer/common/types.h \
+ /usr/include/inttypes.h \
+ /root/oceanbase/oceanbase/deps/common/lang/mutex.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
@@ -277,10 +278,11 @@ src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /root/oceanbase/miniob/deps/common/lang/thread.h \
- /usr/include/c++/11/thread /root/oceanbase/miniob/deps/common/log/log.h \
- /usr/include/assert.h /root/oceanbase/miniob/deps/common/lang/map.h \
- /root/oceanbase/miniob/deps/common/lang/utility.h \
- /root/oceanbase/miniob/deps/common/lang/functional.h \
+ /root/oceanbase/oceanbase/deps/common/lang/thread.h \
+ /usr/include/c++/11/thread \
+ /root/oceanbase/oceanbase/deps/common/log/log.h /usr/include/assert.h \
+ /root/oceanbase/oceanbase/deps/common/lang/map.h \
+ /root/oceanbase/oceanbase/deps/common/lang/utility.h \
+ /root/oceanbase/oceanbase/deps/common/lang/functional.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /root/oceanbase/miniob/deps/common/lang/fstream.h
+ /root/oceanbase/oceanbase/deps/common/lang/fstream.h

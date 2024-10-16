@@ -1,8 +1,8 @@
 src/observer/CMakeFiles/observer_static.dir/storage/clog/integrated_log_replayer.cpp.o: \
- /root/oceanbase/miniob/src/observer/storage/clog/integrated_log_replayer.cpp \
+ /root/oceanbase/oceanbase/src/observer/storage/clog/integrated_log_replayer.cpp \
  /usr/include/stdc-predef.h \
- /root/oceanbase/miniob/src/observer/storage/clog/integrated_log_replayer.h \
- /root/oceanbase/miniob/src/observer/storage/clog/log_replayer.h \
+ /root/oceanbase/oceanbase/src/observer/storage/clog/integrated_log_replayer.h \
+ /root/oceanbase/oceanbase/src/observer/storage/clog/log_replayer.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -141,9 +141,9 @@ src/observer/CMakeFiles/observer_static.dir/storage/clog/integrated_log_replayer
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /root/oceanbase/miniob/src/observer/common/rc.h \
- /root/oceanbase/miniob/src/observer/storage/buffer/buffer_pool_log.h \
- /root/oceanbase/miniob/deps/common/lang/string.h \
+ /root/oceanbase/oceanbase/src/observer/common/rc.h \
+ /root/oceanbase/oceanbase/src/observer/storage/buffer/buffer_pool_log.h \
+ /root/oceanbase/oceanbase/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -177,7 +177,7 @@ src/observer/CMakeFiles/observer_static.dir/storage/clog/integrated_log_replayer
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/c++/11/stdlib.h /usr/include/string.h \
- /usr/include/strings.h /root/oceanbase/miniob/deps/common/defs.h \
+ /usr/include/strings.h /root/oceanbase/oceanbase/deps/common/defs.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -239,58 +239,58 @@ src/observer/CMakeFiles/observer_static.dir/storage/clog/integrated_log_replayer
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/oceanbase/miniob/deps/common/lang/vector.h \
+ /root/oceanbase/oceanbase/deps/common/lang/vector.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/oceanbase/miniob/deps/common/lang/iostream.h \
- /root/oceanbase/miniob/deps/common/lang/exception.h \
- /root/oceanbase/miniob/deps/common/lang/ios.h \
- /root/oceanbase/miniob/deps/common/lang/new.h \
- /root/oceanbase/miniob/deps/common/lang/sstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/iostream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/exception.h \
+ /root/oceanbase/oceanbase/deps/common/lang/ios.h \
+ /root/oceanbase/oceanbase/deps/common/lang/new.h \
+ /root/oceanbase/oceanbase/deps/common/lang/sstream.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /root/oceanbase/miniob/deps/common/lang/set.h /usr/include/c++/11/set \
+ /root/oceanbase/oceanbase/deps/common/lang/set.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /root/oceanbase/miniob/src/observer/common/types.h \
+ /root/oceanbase/oceanbase/src/observer/common/types.h \
  /usr/include/inttypes.h \
- /root/oceanbase/miniob/src/observer/storage/record/record_log.h \
- /root/oceanbase/miniob/deps/common/lang/span.h /usr/include/c++/11/span \
- /usr/include/c++/11/cstddef \
- /root/oceanbase/miniob/src/observer/sql/parser/parse_defs.h \
- /root/oceanbase/miniob/src/observer/common/value.h \
- /root/oceanbase/miniob/deps/common/lang/memory.h \
- /root/oceanbase/miniob/src/observer/common/type/attr_type.h \
- /root/oceanbase/miniob/src/observer/common/type/data_type.h \
- /root/oceanbase/miniob/deps/common/lang/array.h \
- /root/oceanbase/miniob/src/observer/storage/index/bplus_tree_log.h \
- /root/oceanbase/miniob/src/observer/storage/index/latch_memo.h \
- /root/oceanbase/miniob/deps/common/lang/deque.h \
+ /root/oceanbase/oceanbase/src/observer/storage/record/record_log.h \
+ /root/oceanbase/oceanbase/deps/common/lang/span.h \
+ /usr/include/c++/11/span /usr/include/c++/11/cstddef \
+ /root/oceanbase/oceanbase/src/observer/sql/parser/parse_defs.h \
+ /root/oceanbase/oceanbase/src/observer/common/value.h \
+ /root/oceanbase/oceanbase/deps/common/lang/memory.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/attr_type.h \
+ /root/oceanbase/oceanbase/src/observer/common/type/data_type.h \
+ /root/oceanbase/oceanbase/deps/common/lang/array.h \
+ /root/oceanbase/oceanbase/src/observer/storage/index/bplus_tree_log.h \
+ /root/oceanbase/oceanbase/src/observer/storage/index/latch_memo.h \
+ /root/oceanbase/oceanbase/deps/common/lang/deque.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /root/oceanbase/miniob/src/observer/storage/buffer/page.h \
- /root/oceanbase/miniob/src/observer/storage/trx/mvcc_trx_log.h \
- /root/oceanbase/miniob/deps/common/lang/unordered_map.h \
+ /root/oceanbase/oceanbase/src/observer/storage/buffer/page.h \
+ /root/oceanbase/oceanbase/src/observer/storage/trx/mvcc_trx_log.h \
+ /root/oceanbase/oceanbase/deps/common/lang/unordered_map.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /root/oceanbase/miniob/src/observer/storage/record/record.h \
- /root/oceanbase/miniob/deps/common/log/log.h /usr/include/assert.h \
+ /root/oceanbase/oceanbase/src/observer/storage/record/record.h \
+ /root/oceanbase/oceanbase/deps/common/log/log.h /usr/include/assert.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /root/oceanbase/miniob/deps/common/lang/map.h /usr/include/c++/11/map \
+ /root/oceanbase/oceanbase/deps/common/lang/map.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /root/oceanbase/miniob/deps/common/lang/utility.h \
- /root/oceanbase/miniob/deps/common/lang/functional.h \
+ /root/oceanbase/oceanbase/deps/common/lang/utility.h \
+ /root/oceanbase/oceanbase/deps/common/lang/functional.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /root/oceanbase/miniob/deps/common/lang/fstream.h \
- /root/oceanbase/miniob/deps/common/lang/limits.h \
+ /root/oceanbase/oceanbase/deps/common/lang/fstream.h \
+ /root/oceanbase/oceanbase/deps/common/lang/limits.h \
  /usr/include/c++/11/limits \
- /root/oceanbase/miniob/src/observer/storage/field/field_meta.h \
- /root/oceanbase/miniob/src/observer/storage/index/index_meta.h \
- /root/oceanbase/miniob/src/observer/storage/clog/log_entry.h \
- /root/oceanbase/miniob/src/observer/storage/clog/log_module.h
+ /root/oceanbase/oceanbase/src/observer/storage/field/field_meta.h \
+ /root/oceanbase/oceanbase/src/observer/storage/index/index_meta.h \
+ /root/oceanbase/oceanbase/src/observer/storage/clog/log_entry.h \
+ /root/oceanbase/oceanbase/src/observer/storage/clog/log_module.h

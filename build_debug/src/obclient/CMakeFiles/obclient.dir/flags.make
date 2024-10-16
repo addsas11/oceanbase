@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DENABLE_DEBUG -DLINUX -DUNIX
 
-CXX_INCLUDES = -I/root/oceanbase/miniob/. -I/root/oceanbase/miniob/deps
+CXX_INCLUDES = -I/root/oceanbase/oceanbase/. -I/root/oceanbase/oceanbase/deps
 
 CXX_FLAGS =  -Wall -Werror -Wno-error=sign-compare  -O0 -g -DDEBUG  -fno-omit-frame-pointer -fsanitize=address -fsanitize-address-use-after-scope -g -std=gnu++20
 

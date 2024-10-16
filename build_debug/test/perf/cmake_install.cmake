@@ -1,4 +1,4 @@
-# Install script for directory: /root/oceanbase/miniob/test/perf
+# Install script for directory: /root/oceanbase/oceanbase/test/perf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
